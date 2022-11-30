@@ -179,9 +179,13 @@ lang: 'ko'
 
 - 일주일에 한 번, 학습할 CS 키워드를 선택하여 학습한 내용에 대해 발표하는 스터디
 - 해당 CS 키워드에 대한 발표 자료 작성
+
   **[스터디 발표 자료]**
-  - \***\*[Observer Pattern과 Pub-sub 패턴](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/5%ED%9A%8C%EC%B0%A8/%EA%B9%80%EB%8B%A4%EC%9D%80-Observer%20Pattern%EA%B3%BC%20Pub-sub%20%ED%8C%A8%ED%84%B4.md)\*\***
-  - \***\*[LexicalEnvironment](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/3%ED%9A%8C%EC%B0%A8/%EA%B9%80%EB%8B%A4%EC%9D%80%20-%20Lexical%20Environment/LexicalEnvironment.md)\*\***
+
+  - [Observer Pattern과 Pub-sub 패턴](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/5%ED%9A%8C%EC%B0%A8/%EA%B9%80%EB%8B%A4%EC%9D%80-Observer%20Pattern%EA%B3%BC%20Pub-sub%20%ED%8C%A8%ED%84%B4.md)
+
+  - [LexicalEnvironment](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/3%ED%9A%8C%EC%B0%A8/%EA%B9%80%EB%8B%A4%EC%9D%80%20-%20Lexical%20Environment/LexicalEnvironment.md)
+
   - [**프로토타입**](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/2%ED%9A%8C%EC%B0%A8/2%EC%A3%BC%EC%B0%A8-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85_%EA%B9%80%EB%8B%A4%EC%9D%80.md)
 
 # Skill
@@ -194,16 +198,42 @@ lang: 'ko'
 
 # Education
 
-**프로그래머스 K-Digital Training
+<div class="edu-section" style="display:flex">
+
+  <div class="edu-title" style="width:30%;background-color:whitesmoke;padding:10px">
+
+**프로그래머스 <br> K-Digital Training
 프론트엔드 엔지니어링 데브코스 2기 수료**
 
 **2022-03 ~ 2022-08**
+
+  </div>
+
+  <div class="edu-description" style="width:65%">
 
 - JavaScript 주요 문법, CSS, Vue, React 등의 프론트엔드 기본기 습득
 - 각 주제에 관한 과제 구현과 팀원끼리의 코드 리뷰
 - 팀 프로젝트를 통한 협업 경험
 - 배운 내용에 대한 꾸준한 기록을 통해, 배움 기록 왕 2회 선정
 
+  </div>
+
+</div>
+
+<br>
+
+<div clsas="edu-section" style="display:flex">
+
+<div class="edu-title" style="width:30%;background-color:whitesmoke;padding:10px">
+
 **부산대학교 정보컴퓨터공학부**
 
-**2019-03 ~ 재학 중**
+**2019-03 ~ 재학 중 (2023년 8월 졸업 예정)**
+
+</div>
+
+<div class="edu-description" style="width:65%">
+
+<div>
+
+</div>
