@@ -59,12 +59,6 @@ export const Bio = forwardRef((props, ref) => {
                       </a>
                     )}
                   </p>
-
-                  <a href={oldBlog}>
-                    <button style={{ cursor: 'pointer' }}>
-                      예전 블로그로 바로 가기
-                    </button>
-                  </a>
                 </div>
               </div>
             </div>
