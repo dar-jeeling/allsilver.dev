@@ -5,12 +5,12 @@ module.exports = {
   introduction: `다은킴 개발 블로그`,
   siteUrl: `https://dar-jeeling.github.io`, // Your blog site url
   social: {
-    // twitter: ``, // Your Twitter account
+    twitter: ``, // Your Twitter account
     github: `dar-jeeling`, // Your GitHub account
-    //  medium: ``, // Your Medium account
-    // facebook: ``, // Your Facebook account
-    // linkedin: ``, // Your LinkedIn account
-    // instagram: ``, // Your Instagram account
+    medium: ``, // Your Medium account
+    facebook: ``, // Your Facebook account
+    linkedin: ``, // Your LinkedIn account
+    instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
@@ -22,7 +22,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    // buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'dar-jeeling',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
