@@ -6,7 +6,7 @@ lang: 'ko'
 
 # 김다은
 
-## About Me
+# About Me
 
 **개발에 있어서 기본기가 가장 중요하다고 생각합니다**.
 
@@ -23,7 +23,7 @@ lang: 'ko'
 
 <div class="contact">
 
-## Contact
+### Contact
 
 **Email.** lllspartium@gmail.com
 
@@ -31,7 +31,7 @@ lang: 'ko'
 
 <div class="channel" style="margin-left: 5px">
 
-## Channel
+### Channel
 
 **Blog.** [https://break-your-limit.tistory.com](https://break-your-limit.tistory.com/)
 
@@ -42,35 +42,22 @@ lang: 'ko'
 
 # Projects
 
-<div class="project-section" style="width:100%">
-  <div style="display:flex;justify-content:space-between" class="project-container">
-    <div class="project-title" style=" padding:10px;width:30%;">
-
 ## Artzip
 
-**개발**
-
-**22.07.21~22.08.15**
-
-**리팩터링**
-
-**22.08.15~22.11.10**
-
-[**Github**](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE)
-
-[**Notion**](https://www.notion.so/BackFro-ArtZip-8db56ad1304e441e8abe0b7045207852)
-
-[**프로젝트 회고**](https://break-your-limit.tistory.com/75)
-
-  </div>
-
-  <div class="project-detail" style="margin-left: 30px;width:65%">
-
 **미술 전시회의 정보를 조회하고 후기를 공유할 수 있는 웹 플랫폼**
+
+|               |                                                                                                                                                                                                                     |
+| :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   **기간**    | 22.07.21 ~ 22.08.14 <br> **리팩터링** - 22.08.15 ~ 22.11.10                                                                                                                                                         |
+| **외부 링크** | [Github](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE), [Notion](https://www.notion.so/BackFro-ArtZip-8db56ad1304e441e8abe0b7045207852), [프로젝트 회고](https://break-your-limit.tistory.com/75) |
+
+<aside>
 
 > 💡 **Tech Stack**
 >
 > TypeScript, Next.js, Emotion, Recoil, SWR, Vercel
+
+</aside>
 
 - 커뮤니티 페이지, 후기 상세 페이지 구현
   - `InterSection Observer` 를 이용하여 커뮤니티 피드와 댓글의 무한 스크롤 로직 작성
@@ -84,35 +71,14 @@ lang: 'ko'
 - `Vercel` 을 이용한 배포
 - [효율적인 협업을 위한 Github Disscussion 을 이용한 프로젝트 문서화](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions)
 
-   </div>
-    </div>
-  </div>
-
-<br>
-
----
-
-<br>
-
-<div class="project-section" style="width:100%">
-  <div style="display:flex" class="project-container">
-    <div class="project-title" style=" padding:10px;width:30%;">
-
 ## LUVOOK
 
-**22.06.06~ 22.06.22**
-
-[**Github**](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun)
-
-**[Notion](https://www.notion.so/f567b7542b3d4708be7827b91c74e4b6)**
-
-[**프로젝트 회고**](https://break-your-limit.tistory.com/55)
-
- </div>
-
-  <div class="project-detail" style="margin-left: 30px;width:65%">
-
 **도서 문구 기반의 도서 공유 플랫폼**
+
+|               |                                                                                                                                                                                                 |
+| :-----------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   **기간**    | 22.06.06~ 22.06.22                                                                                                                                                                              |
+| **외부 링크** | [Github](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun), [Notion](https://www.notion.so/f567b7542b3d4708be7827b91c74e4b6), [프로젝트 회고](https://break-your-limit.tistory.com/55) |
 
 <aside>
 
@@ -131,33 +97,14 @@ lang: 'ko'
   - `Promise.all` 을 이용한 데이터 패칭 로직 구현
 - 404 페이지 구현
 
-</div>
-</div>
-</div>
-
-<br>
-
----
-
-<br>
-
-<div class="project-section" style="width:100%">
-  <div style="display:flex" class="project-container">
-    <div class="project-title" style=" padding:10px;padding-top:0px;width:30%;">
-
 ## DuckEggs
 
-**2021.06~2021.08**
-
-[**Github**](https://github.com/Hackathon-DuckEggs/PNU-DuckEggs)
-
-[**Notion**](https://www.notion.so/8-19-663785d02b5d4d3d9be230f60208c4dc)
-
-  </div>
-
-  <div class="project-detail" style="margin-left: 30px;width:65%">
-
 **자연어 분석을 이용한 리뷰 분석 플랫폼**
+
+|               |                                                                                                                                     |
+| :-----------: | ----------------------------------------------------------------------------------------------------------------------------------- |
+|   **기간**    | 21.06 ~ 21.08                                                                                                                       |
+| **외부 링크** | [Github](https://github.com/Hackathon-DuckEggs/PNU-DuckEggs), [Notion](https://www.notion.so/8-19-663785d02b5d4d3d9be230f60208c4dc) |
 
 > 💡 **Tech Stack**
 >
@@ -166,15 +113,14 @@ lang: 'ko'
 - 프로젝트 팀장 및 웹 프론트엔드 개발
 - Google Chart 와 D3 Wordcloud를 이용한 자연어 분석 결과 데이터 시각화
 - [부산대학교 제4회 창의융합 소프트웨어 해커톤 장려상 수상](https://pnuswedu.org/04_hackathon/previous.php)
-    </div>
-    </div>
-  </div>
 
 # Study
 
 ## [모던 JavaScript Deep Dive 스터디](https://www.notion.so/Deep-Dive-cb93ad0db4f941b79fc31ae6a6ff645c)
 
-**2022.04 - 11**
+|          |                   |
+| :------: | ----------------- |
+| **기간** | 2022.04 - 2022.11 |
 
 - 자바스크립트의 기본 동작 원리를 이해하기 위한 모던 자바스크립트 Deep Dive 독서 스터디
 - **스터디 리드 역할**
@@ -183,7 +129,9 @@ lang: 'ko'
 
 ## [CS 발표 스터디](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia)
 
-**2022.04 - 2022.07**
+|          |                   |
+| :------: | ----------------- |
+| **기간** | 2022.04 - 2022.07 |
 
 - 일주일에 한 번, 학습할 CS 키워드를 선택하여 학습한 내용에 대해 발표하는 스터디
 - 해당 CS 키워드에 대한 발표 자료 작성
@@ -206,44 +154,15 @@ lang: 'ko'
 
 # Education
 
-<div class="edu-section" style="display:flex">
-
-  <div class="edu-title" style="width:40%;padding:10px;">
-
-**프로그래머스 <br> K-Digital Training
-프론트엔드 엔지니어링 데브코스 2기 수료**
+## 프로그래머스 K-Digital Training 프론트엔드 엔지니어링 데브코스 2기 수료
 
 **2022-03 ~ 2022-08**
-
-  </div>
-
-  <div class="edu-description" style="width:55%">
 
 - `JavaScript` 주요 문법, `CSS`, `Vue`, `React` 등의 프론트엔드 기본기 습득
 - 각 주제에 관한 과제 구현과 팀원끼리의 코드 리뷰
 - 팀 프로젝트를 통한 협업 경험
 - 배운 내용에 대한 꾸준한 기록을 통해, 배움 기록 왕 2회 선정
 
-  </div>
-
-</div>
-
-<br>
-
----
-
-<div clsas="edu-section" style="display:flex">
-
-<div class="edu-title" style="width:40%;padding:10px;">
-
-**부산대학교 정보컴퓨터공학부**
+## 부산대학교 정보컴퓨터공학부
 
 **2019-03 ~ 재학 중 (2023년 8월 졸업 예정)**
-
-</div>
-
-<div class="edu-description" style="width:55%">
-
-<div>
-
-</div>
