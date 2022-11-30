@@ -6,7 +6,7 @@ import * as Lang from '../constants'
 import { Layout } from '../layout'
 import { Header } from '../components/header'
 
-export default ({ data }) => {
+export default ({ data, location }) => {
   const resumes = data.allMarkdownRemark.edges
 
   const resume = resumes
@@ -14,18 +14,20 @@ export default ({ data }) => {
     .map(({ node }) => node)[0]
 
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(0.5)} ${rhythm(3 / 4)} ${rhythm(1.5)} ${rhythm(
-          3 / 4
-        )}`,
-      }}
-    >
-      <div dangerouslySetInnerHTML={{ __html: resume.html }} />
-    </div>
+    <Layout location={location} title="블로그로 돌아가기">
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: `${rhythm(0.5)} ${rhythm(3 / 4)} ${rhythm(1.5)} ${rhythm(
+            3 / 4
+          )}`,
+        }}
+      >
+        <div dangerouslySetInnerHTML={{ __html: resume.html }} />
+      </div>
+    </Layout>
   )
 }
 
