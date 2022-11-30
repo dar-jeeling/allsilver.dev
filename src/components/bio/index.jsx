@@ -5,64 +5,74 @@ import Image from 'gatsby-image'
 import './index.scss'
 
 export const Bio = forwardRef((props, ref) => {
-  return <StaticQuery
-    query={bioQuery}
-    render={data => {
-      const { author, social, introduction } = data.site.siteMetadata
+  return (
+    <StaticQuery
+      query={bioQuery}
+      render={data => {
+        const { author, social, introduction, oldBlog } = data.site.siteMetadata
 
-      return (
-        <div ref={ref} className="bio">
-          <div className="author">
-            <div className="author-description">
-              <Image
-                className="author-image"
-                fixed={data.avatar.childImageSharp.fixed}
-                alt={author}
-                style={{
-                  borderRadius: `100%`,
-                }}
-              />
-              <div className="author-name">
-                <span className="author-name-prefix">Written by</span>
-                <Link to={'/about'} className="author-name-content">
-                  <span>@{author}</span>
-                </Link>
-                <div className="author-introduction">{introduction}</div>
-                <p className="author-socials">
-                  {social.instagram && (
-                    <a href={`https://www.instagram.com/${social.instagram}`}>
-                      Instagram
-                    </a>
-                  )}
-                  {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
-                  )}
-                  {social.medium && (
-                    <a href={`https://medium.com/${social.medium}`}>Medium</a>
-                  )}
-                  {social.twitter && (
-                    <a href={`https://twitter.com/${social.twitter}`}>
-                      Twitter
-                    </a>
-                  )}
-                  {social.facebook && (
-                    <a href={`https://www.facebook.com/${social.facebook}`}>
-                      Facebook
-                    </a>
-                  )}
-                  {social.linkedin && (
-                    <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
-                      LinkedIn
-                    </a>
-                  )}
-                </p>
+        return (
+          <div ref={ref} className="bio">
+            <div className="author">
+              <div className="author-description">
+                <Image
+                  className="author-image"
+                  fixed={data.avatar.childImageSharp.fixed}
+                  alt={author}
+                  style={{
+                    borderRadius: `100%`,
+                  }}
+                />
+                <div className="author-name">
+                  <span className="author-name-prefix">Written by</span>
+                  <Link to={'/about'} className="author-name-content">
+                    <span>@{author}</span>
+                  </Link>
+                  <div className="author-introduction">{introduction}</div>
+                  <p className="author-socials">
+                    {social.instagram && (
+                      <a href={`https://www.instagram.com/${social.instagram}`}>
+                        Instagram
+                      </a>
+                    )}
+                    {social.github && (
+                      <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    )}
+                    {social.medium && (
+                      <a href={`https://medium.com/${social.medium}`}>Medium</a>
+                    )}
+                    {social.twitter && (
+                      <a href={`https://twitter.com/${social.twitter}`}>
+                        Twitter
+                      </a>
+                    )}
+                    {social.facebook && (
+                      <a href={`https://www.facebook.com/${social.facebook}`}>
+                        Facebook
+                      </a>
+                    )}
+                    {social.linkedin && (
+                      <a
+                        href={`https://www.linkedin.com/in/${social.linkedin}/`}
+                      >
+                        LinkedIn
+                      </a>
+                    )}
+                  </p>
+
+                  <a href={oldBlog}>
+                    <button style={{ cursor: 'pointer' }}>
+                      예전 블로그로 바로 가기
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )
-    }}
-  />
+        )
+      }}
+    />
+  )
 })
 
 const bioQuery = graphql`

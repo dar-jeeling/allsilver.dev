@@ -1,7 +1,7 @@
 module.exports = {
   title: `Bee starter`,
   description: `Blog posted about ...`,
-  author: `[Your Name]`,
+  author: `다은킴`,
   introduction: `다은킴 개발 블로그`,
   siteUrl: `https://dar-jeeling.github.io`, // Your blog site url
   social: {
@@ -11,7 +11,9 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
     instagram: ``, // Your Instagram account
+    tistory: `break-your-limit`,
   },
+  oldBlog: `https://break-your-limit.tistory.com/`,
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
