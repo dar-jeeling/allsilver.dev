@@ -3,12 +3,14 @@ import { graphql } from 'gatsby'
 
 import { rhythm } from '../utils/typography'
 import * as Lang from '../constants'
+import { Layout } from '../layout'
+import { Header } from '../components/header'
 
 export default ({ data }) => {
   const resumes = data.allMarkdownRemark.edges
 
   const resume = resumes
-    .filter(({ node }) => node.frontmatter.lang === Lang.ENGLISH)
+    .filter(({ node }) => node.frontmatter.lang === Lang.KOREAN)
     .map(({ node }) => node)[0]
 
   return (
