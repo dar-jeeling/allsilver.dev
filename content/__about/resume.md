@@ -44,7 +44,7 @@ lang: 'ko'
 
 <div class="project-section" style="width:100%">
   <div style="display:flex;justify-content:space-between" class="project-container">
-    <div class="project-title" style=" padding:10px;width:30%;border-right: 5px solid lightgray;">
+    <div class="project-title" style=" padding:10px;width:30%;">
 
 ## Artzip
 
@@ -96,7 +96,7 @@ lang: 'ko'
 
 <div class="project-section" style="width:100%">
   <div style="display:flex" class="project-container">
-    <div class="project-title" style=" padding:10px;width:30%;border-right: 5px solid lightgray;">
+    <div class="project-title" style=" padding:10px;width:30%;">
 
 ## LUVOOK
 
@@ -143,7 +143,7 @@ lang: 'ko'
 
 <div class="project-section" style="width:100%">
   <div style="display:flex" class="project-container">
-    <div class="project-title" style=" padding:10px;padding-top:0px;width:30%;border-right: 5px solid lightgray;">
+    <div class="project-title" style=" padding:10px;padding-top:0px;width:30%;">
 
 ## DuckEggs
 
@@ -208,7 +208,7 @@ lang: 'ko'
 
 <div class="edu-section" style="display:flex">
 
-  <div class="edu-title" style="width:40%;padding:10px;border-right: 5px solid lightgray;">
+  <div class="edu-title" style="width:40%;padding:10px;">
 
 **프로그래머스 <br> K-Digital Training
 프론트엔드 엔지니어링 데브코스 2기 수료**
@@ -230,9 +230,11 @@ lang: 'ko'
 
 <br>
 
+---
+
 <div clsas="edu-section" style="display:flex">
 
-<div class="edu-title" style="width:40%;padding:10px;border-right: 5px solid lightgray;">
+<div class="edu-title" style="width:40%;padding:10px;">
 
 **부산대학교 정보컴퓨터공학부**
 
