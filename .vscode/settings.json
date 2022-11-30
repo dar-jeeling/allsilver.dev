@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#173139",
+        "titleBar.activeBackground": "#204550",
+        "titleBar.activeForeground": "#F7FBFC"
+    }
+}
