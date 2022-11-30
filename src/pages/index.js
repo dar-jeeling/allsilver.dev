@@ -24,18 +24,40 @@ export default ({ data, location }) => {
   const { siteMetadata } = data.site
   const { countOfInitialPost } = siteMetadata.configs
   const posts = data.allMarkdownRemark.edges
-  const categories = useMemo(
-    () => _.uniq(posts.map(({ node }) => node.frontmatter.category)),
-    []
-  )
+
+  // 카테고리 우선도를 위하여 수동으로 카테고리 정의
+  const categories = [
+    'Technical',
+    'Algorithm',
+    '회고',
+    // 'TIL',
+    '스크랩북',
+    '데브코스',
+    '괜찮은 생각',
+  ]
+
+  // const categories = useMemo(
+  //   () => _.uniq(posts.map(({ node }) => node.frontmatter.category)),
+  //   []
+  // )
+
   const bioRef = useRef(null)
   const [DEST, setDEST] = useState(316)
   const [count, countRef, increaseCount] = useRenderedCount()
   const [category, selectCategory] = useCategory(DEST)
 
-  useEffect( tabRef => {
-    setDEST(!bioRef.current ? 316 : bioRef.current.getBoundingClientRect().bottom + window.pageYOffset + 24 )
-  }, [bioRef.current])
+  useEffect(
+    tabRef => {
+      setDEST(
+        !bioRef.current
+          ? 316
+          : bioRef.current.getBoundingClientRect().bottom +
+              window.pageYOffset +
+              24
+      )
+    },
+    [bioRef.current]
+  )
 
   useIntersectionObserver()
   useScrollEvent(() => {
