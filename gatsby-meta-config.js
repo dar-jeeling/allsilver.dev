@@ -1,8 +1,8 @@
 module.exports = {
-  title: `Bee starter`,
+  title: `다은킴 개발 블로그`,
   description: `Blog posted about ...`,
   author: `다은킴`,
-  introduction: `다은킴 개발 블로그`,
+  introduction: `철학적인 개발자를 꿈꿉니다.`,
   siteUrl: `https://dar-jeeling.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
