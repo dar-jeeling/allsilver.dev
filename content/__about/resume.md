@@ -29,7 +29,7 @@ lang: 'ko'
 
 </div>
 
-<div class="channel">
+<div class="channel" style="margin-left: 5px">
 
 ## Channel
 
@@ -44,7 +44,7 @@ lang: 'ko'
 
 <div class="project-section" style="width:100%">
   <div style="display:flex;justify-content:space-between" class="project-container">
-    <div class="project-title" style=" padding:10px;width:30%">
+    <div class="project-title" style=" padding:10px;width:30%;border-right: 5px solid lightgray;">
 
 ## Artzip
 
@@ -88,11 +88,15 @@ lang: 'ko'
     </div>
   </div>
 
-  <br>
+<br>
+
+---
+
+<br>
 
 <div class="project-section" style="width:100%">
   <div style="display:flex" class="project-container">
-    <div class="project-title" style=" padding:10px;width:30%">
+    <div class="project-title" style=" padding:10px;width:30%;border-right: 5px solid lightgray;">
 
 ## LUVOOK
 
@@ -133,9 +137,13 @@ lang: 'ko'
 
 <br>
 
+---
+
+<br>
+
 <div class="project-section" style="width:100%">
   <div style="display:flex" class="project-container">
-    <div class="project-title" style=" padding:10px;width:30%">
+    <div class="project-title" style=" padding:10px;padding-top:0px;width:30%;border-right: 5px solid lightgray;">
 
 ## DuckEggs
 
@@ -200,7 +208,7 @@ lang: 'ko'
 
 <div class="edu-section" style="display:flex">
 
-  <div class="edu-title" style="width:30%;padding:10px">
+  <div class="edu-title" style="width:40%;padding:10px;border-right: 5px solid lightgray;">
 
 **프로그래머스 <br> K-Digital Training
 프론트엔드 엔지니어링 데브코스 2기 수료**
@@ -209,9 +217,9 @@ lang: 'ko'
 
   </div>
 
-  <div class="edu-description" style="width:65%">
+  <div class="edu-description" style="width:55%">
 
-- JavaScript 주요 문법, CSS, Vue, React 등의 프론트엔드 기본기 습득
+- `JavaScript` 주요 문법, `CSS`, `Vue`, `React` 등의 프론트엔드 기본기 습득
 - 각 주제에 관한 과제 구현과 팀원끼리의 코드 리뷰
 - 팀 프로젝트를 통한 협업 경험
 - 배운 내용에 대한 꾸준한 기록을 통해, 배움 기록 왕 2회 선정
@@ -224,7 +232,7 @@ lang: 'ko'
 
 <div clsas="edu-section" style="display:flex">
 
-<div class="edu-title" style="width:30%;padding:10px">
+<div class="edu-title" style="width:40%;padding:10px;border-right: 5px solid lightgray;">
 
 **부산대학교 정보컴퓨터공학부**
 
@@ -232,7 +240,7 @@ lang: 'ko'
 
 </div>
 
-<div class="edu-description" style="width:65%">
+<div class="edu-description" style="width:55%">
 
 <div>
 
