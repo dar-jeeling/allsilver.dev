@@ -86,11 +86,11 @@ draft: false
 
 ## 번외: 프로젝트 동안 무슨 일이 있었고, 무엇을 공부했나? 프로젝트 일지
 
-## [220609 프로젝트 일지 + TIL](https://break-your-limit.tistory.com/51)
+## [220609 프로젝트 일지 + TIL](https://dar-jeeling.github.io/Project/220609-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80-TIL/)
 
-## [220610-220612 프로젝트 일지 + TIL](https://break-your-limit.tistory.com/52)
+## [220610-220612 프로젝트 일지 + TIL](https://dar-jeeling.github.io/Project/220610-220612-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80-TIL/)
 
-## [220616~220622? 프로젝트 일지 + TIL](https://break-your-limit.tistory.com/54)
+## [220616~220622? 프로젝트 일지 + TIL](https://dar-jeeling.github.io/Project/220616-220622-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80-TIL/)
 
 개발하면서 맞닦드린 일들과 공부한 내용을 조금씩 정리하였다.
 

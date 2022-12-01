@@ -4,9 +4,7 @@ date: 2019-1-27 16:21:13
 lang: 'ko'
 ---
 
-# 김다은
-
-# About Me
+# 안녕하세요!<br>프론트엔드 개발자 지망생 김다은 입니다!
 
 **개발에 있어서 기본기가 가장 중요하다고 생각합니다**.
 
@@ -15,7 +13,7 @@ lang: 'ko'
 
 **기록과 문서화를 중요하게 생각합니다.**
 
-- 프로젝트를 개발하면서 있었던 일들을 기록하고, 프로젝트 개발 종료 후 [회고](https://break-your-limit.tistory.com/category/%ED%9A%8C%EA%B3%A0)를 작성합니다.
+- 프로젝트를 개발하면서 있었던 일들을 기록하고, 프로젝트 개발 종료 후 [회고](https://dar-jeeling.github.io/?category=%ED%9A%8C%EA%B3%A0)를 작성합니다.
 - 팀과의 소통을 위한 기록 역시 중요하다고 생각합니다.
   - Notion 과 Github 의 Discussion을 활용하여, 팀원들과 프로젝트 이슈를 활발하게 공유합니다.
 
@@ -33,7 +31,7 @@ lang: 'ko'
 
 ### Channel
 
-**Blog.** [https://break-your-limit.tistory.com](https://break-your-limit.tistory.com/)
+**Blog.** [https://dar-jeeling.github.io/](https://dar-jeeling.github.io/)
 
 **GitHub.** [https://github.com/dar-jeeling](https://github.com/dar-jeeling)
 
@@ -46,10 +44,10 @@ lang: 'ko'
 
 **미술 전시회의 정보를 조회하고 후기를 공유할 수 있는 웹 플랫폼**
 
-|               |                                                                                                                                                                                                                     |
-| :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   **기간**    | 22.07.21 ~ 22.08.14 <br> **리팩터링** - 22.08.15 ~ 22.11.10                                                                                                                                                         |
-| **외부 링크** | [Github](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE), [Notion](https://www.notion.so/BackFro-ArtZip-8db56ad1304e441e8abe0b7045207852), [프로젝트 회고](https://break-your-limit.tistory.com/75) |
+|               |                                                                                                                                                                                                                                                                                              |
+| :-----------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   **기간**    | 22.07.21 ~ 22.08.14 <br> **리팩터링** - 22.08.15 ~ 22.11.10                                                                                                                                                                                                                                  |
+| **외부 링크** | [Github](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE), [Notion](https://www.notion.so/BackFro-ArtZip-8db56ad1304e441e8abe0b7045207852), [프로젝트 회고](https://dar-jeeling.github.io/%ED%9A%8C%EA%B3%A0/artzip-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0/) |
 
 <aside>
 
@@ -62,10 +60,10 @@ lang: 'ko'
 - 커뮤니티 페이지, 후기 상세 페이지 구현
   - `InterSection Observer` 를 이용하여 커뮤니티 피드와 댓글의 무한 스크롤 로직 작성
 - `Recoil` 을 이용한 전역 유저 상태 관리 로직 구현
-- [쿠키를 이용한 SSR 환경에서의 인증 로직 구현 및 모듈화](https://break-your-limit.tistory.com/77)
+- [쿠키를 이용한 SSR 환경에서의 인증 로직 구현 및 모듈화](https://dar-jeeling.github.io/Technical/Recoil%EA%B3%BC-Cookie%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Nextjs%EC%9D%98-SSR-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%A0%84%EC%97%AD-%EC%9D%B8%EC%A6%9D-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-JWT-%ED%86%A0%ED%81%B0-%EC%83%88%EB%A1%9C-%EA%B3%A0%EC%B9%A8-%EC%9C%A0%EC%A7%80/)
   - 7개의 페이지 중 5개의 페이지의 Data Fetching 로직을 CSR 에서 SSR로 마이그레이션
   - LightHouse 로 측정한 평균 SEO 점수 68.3 점에서 98.3 점으로 **약 43.92% 증가**
-- [이미지 최적화를 위한 `next/image` 도입](https://break-your-limit.tistory.com/76)
+- [이미지 최적화를 위한 `next/image` 도입](https://dar-jeeling.github.io/Technical/nextImage-%EC%A0%81%EC%9A%A9%EA%B8%B0/)
   - (메인 페이지 기준) resources 용량 60.6 MB 에서 54.4 MB로 **약 10.23 % 감소**, Load 속도 10.33 s 에서 3.79로 **약 63.31 % 감소**
 - 백엔드 개발에 의존성이 있는 로직을 프론트엔드에서 미리 구현하기 위하여 `MSW` 도입
 - `Vercel` 을 이용한 배포
@@ -75,10 +73,10 @@ lang: 'ko'
 
 **도서 문구 기반의 도서 공유 플랫폼**
 
-|               |                                                                                                                                                                                                 |
-| :-----------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   **기간**    | 22.06.06~ 22.06.22                                                                                                                                                                              |
-| **외부 링크** | [Github](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun), [Notion](https://www.notion.so/f567b7542b3d4708be7827b91c74e4b6), [프로젝트 회고](https://break-your-limit.tistory.com/55) |
+|               |                                                                                                                                                                                                                                                                                         |
+| :-----------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   **기간**    | 22.06.06~ 22.06.22                                                                                                                                                                                                                                                                      |
+| **외부 링크** | [Github](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun), [Notion](https://www.notion.so/f567b7542b3d4708be7827b91c74e4b6), [프로젝트 회고](https://dar-jeeling.github.io/%ED%9A%8C%EA%B3%A0/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-ALL-WE-NEED-IS-LUVOOK/) |
 
 <aside>
 
@@ -88,7 +86,7 @@ lang: 'ko'
 
 </aside>
 
-- [`Context API` 와 `useReducer`를 이용한 전역 유저 상태 관리 로직 구현](https://break-your-limit.tistory.com/52)
+- [`Context API` 와 `useReducer`를 이용한 전역 유저 상태 관리 로직 구현](https://dar-jeeling.github.io/Project/220610-220612-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80-TIL/)
 - 재사용성과 확장성을 고려한 공통 컴포넌트 개발
   - Button, Image, Avatar, BookCard, ListSlider, Navbar 컴포넌트 구현
   - `Storybook` 을 이용한 구현한 컴포넌트 인터렉션 테스트 및 문서화
