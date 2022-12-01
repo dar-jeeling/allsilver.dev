@@ -6,15 +6,7 @@ tags: ['Next.js', 'next/image', 'Artzip']
 draft: false
 ---
 
-[https://break-your-limit.tistory.com/70](https://break-your-limit.tistory.com/70)
-
-[[Artzip 리팩터링] 최적화 방향 잡기\
-\
-\
-TL;DR LightHouse를 통하여 성능 지표를 확인하여 최적화 방향을 잡아보자. 이미지 최적화 방식을 생각해보고 이 기능들을 사용할 수 있는 nextJS에 어울리는 next/image 를 활용하는 방향으로 이미지 최\
-\
-\
-break-your-limit.tistory.com](https://break-your-limit.tistory.com/70)
+> [[Artzip 리팩터링] 최적화 방향 잡기](https://break-your-limit.tistory.com/70)
 
 위의 글에서 프로젝트의 렌더링이 오래 걸리는 원인을 해결하기 위한 방안으로 "이미지 렌더링 최적화"를 생각하였다.
 
@@ -95,16 +87,4 @@ next/Image 를 사용하여, next 의 image optimization 을 이용하여, 처�
 
 ( **측정과 스크린샷을 제공해주신 기홍님께 감사드립니다!**)
 
-더보기
-
-더보기
-
-[https://nextjs.org/docs/api-reference/next/image](https://nextjs.org/docs/api-reference/next/image)
-
-[next/image \| Next.js\
-\
-\
-Enable Image Optimization with the built-in Image component.\
-\
-\
-nextjs.org](https://nextjs.org/docs/api-reference/next/image)
+> [ next/image \| Next.js\ ](https://nextjs.org/docs/api-reference/next/image)

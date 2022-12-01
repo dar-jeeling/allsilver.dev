@@ -276,15 +276,7 @@ export default ArtZip;
 
 이 때, `getInitiaProps` 함수를 실행시켜 반환된 값을 얻기 위하여 (쿠키 값을 얻어오기 위하여) Custom App을 사용하였다. 관련 내용은 다음 링크를 참고하길 바란다.
 
-[https://nextjs.org/docs/advanced-features/custom-app](https://nextjs.org/docs/advanced-features/custom-app)
-
-[Advanced Features: Custom \`App\` \| Next.js\
-\
-\
-Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.\
-\
-\
-nextjs.org](https://nextjs.org/docs/advanced-features/custom-app)
+> [Advanced Features: Custom \`App\` \| Next.js](https://nextjs.org/docs/advanced-features/custom-app)
 
 ## 회고
 
@@ -292,70 +284,16 @@ nextjs.org](https://nextjs.org/docs/advanced-features/custom-app)
 
 본질적으로 인증 방식을 Vercel 에서 지원하는 것 처럼 자동으로 리프레시 토큰을 붙여서 인증하면 훨씬 깔끔할 것 같지만, 클라이언트에서 토큰을 관리하는 방법에 대해서 깊게 공부해볼 수 있었던 기회였다.
 
-더보기
+> [서버 사이드 렌더링(\`getServerSideProps\`) 환경에서 인증 로직 사용하기 · Discussion #313](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/313)
 
-[https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/313](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/313)
-
-[서버 사이드 렌더링(\`getServerSideProps\`) 환경에서 인증 로직 사용하기 · Discussion #313 · prgrms-web-devcou\
-\
-\
-서버 사이드에서는 모듈화된 API 대신, axios 객체를 직접 만들어서 사용해주세요. 인증이 필요한 경우에는 authorizeFetch 함수를 사용하시면 됩니다. 예제를 참고해주세요! 예제 export const getServerSideP\
-\
-\
-github.com](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/313)
-
-[https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/309](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/309)
-
-[모든 페이지에 대해서 쿠키를 조작할 때 · Discussion #309 · prgrms-web-devcourse/Team-BackFro-ArtZip-FE\
-\
-\
-path : '/' 설정을 해야 쿠키를 정상적으로 조작 가능 (이 설정을 하지 않으면 메인 페이지 외의 path에서 쿠키를 조작할 수 없습니다.) 특히 remove 나 set 의 연산에서 주의해야 함! (get 에서는 붙이지\
-\
-\
-github.com](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/309)
+> [모든 페이지에 대해서 쿠키를 조작할 때 · Discussion #309 ](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions/309)
 
 ## 참고 자료
 
-더보기
+> [Atom Effects \| Recoil](https://recoiljs.org/ko/docs/guides/atom-effects/)
 
-### Recoil Effect
+> [Recoil with Storage (feat. effects) - 오픈소스컨설팅 테크블로그](https://tech.osci.kr/2022/07/05/recoil-react-js-state-management/)
 
-[https://recoiljs.org/ko/docs/guides/atom-effects/](https://recoiljs.org/ko/docs/guides/atom-effects/)
+> [<RecoilRoot> \| Recoil](https://recoiljs.org/docs/api-reference/core/RecoilRoot/)
 
-[Atom Effects \| Recoil\
-\
-\
-Atom Effects는 부수효과를 관리하고 Recoil의 atom을 초기화 또는 동기화하기 위한 API입니다. Atom Effects는 state persistence(상태 지속성), state synchronization(상태 동기화), managing history(히스토리 관리), loggin\
-\
-\
-recoiljs.org](https://recoiljs.org/ko/docs/guides/atom-effects/)
-
-[https://tech.osci.kr/2022/07/05/recoil-react-js-state-management/](https://tech.osci.kr/2022/07/05/recoil-react-js-state-management/)
-
-[Recoil with Storage (feat. effects) - 오픈소스컨설팅 테크블로그\
-\
-\
-오픈소스컨설팅 테크블로그 Recoil with Storage (feat. effects) - Web Frontend Library React.js 의 상태관리 라이브러리인 Recoil 에 대해서 심층적으로 탐구해봅니다.\
-\
-\
-tech.osci.kr](https://tech.osci.kr/2022/07/05/recoil-react-js-state-management/)
-
-[https://recoiljs.org/docs/api-reference/core/RecoilRoot/](https://recoiljs.org/docs/api-reference/core/RecoilRoot/)
-
-[<RecoilRoot> \| Recoil\
-\
-\
-Provides the context in which atoms have values. Must be an ancestor of any component that uses any Recoil hooks.\
-\
-\
-recoiljs.org](https://recoiljs.org/docs/api-reference/core/RecoilRoot/)
-
-[https://lemontia.tistory.com/1012](https://lemontia.tistory.com/1012)
-
-[[react, next.js] SSR환경에서 access_token, refresh_tokne 관리하기(cookie이용)\
-\
-\
-로그인 한 후에 받은 access_token을 관리하는데는 여러가지가 있지만 여기서는 쿠키를 이용한 관리. 그리고 재활용을 확인해보려 한다. 처음 react를 공부할때 애먹었던 것중 하나도 이것이었는데,\
-\
-\
-lemontia.tistory.com](https://lemontia.tistory.com/1012)
+> [[react, next.js] SSR환경에서 access_token, refresh_tokne 관리하기(cookie이용) | 티스토리, lemontia](https://lemontia.tistory.com/1012)

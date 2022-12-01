@@ -2,6 +2,7 @@
 title: '[Art.zip] 프로젝트 리팩터링 결과 보고'
 date: 2022-11-14 02:39:16
 tags: ['리팩터링', 'Artzip']
+category: 'Project'
 draft: false
 ---
 

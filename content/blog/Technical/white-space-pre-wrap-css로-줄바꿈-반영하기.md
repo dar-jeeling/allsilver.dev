@@ -20,22 +20,6 @@ white-space: pre-wrap;
 
 ## 참고 자료
 
-[https://stackoverflow.com/questions/40418024/how-to-replace-n-to-linebreaks-in-react-js](https://stackoverflow.com/questions/40418024/how-to-replace-n-to-linebreaks-in-react-js)
+> [How to replace /n to linebreaks in react.js? | stackoverflow](https://stackoverflow.com/questions/40418024/how-to-replace-n-to-linebreaks-in-react-js)
 
-[How to replace /n to linebreaks in react.js?\
-\
-\
-I am trying to replace every /n to a <br> tag in ReactJS. In my note.note object there is a string with multiple /n in it. example note.note: test\\ntest\\ntest What I have tried in ReactJS:...\
-\
-\
-stackoverflow.com](https://stackoverflow.com/questions/40418024/how-to-replace-n-to-linebreaks-in-react-js)
-
-[https://dev.to/cassidoo/make-line-breaks-work-when-you-render-text-in-a-react-or-vue-component-4m0n](https://dev.to/cassidoo/make-line-breaks-work-when-you-render-text-in-a-react-or-vue-component-4m0n)
-
-[Make line breaks work when you render text in a React or Vue component\
-\
-\
-Sometimes you just want those pesky newline characters to actually work!\
-\
-\
-dev.to](https://dev.to/cassidoo/make-line-breaks-work-when-you-render-text-in-a-react-or-vue-component-4m0n)
+> [Make line breaks work when you render text in a React or Vue component | dev.to, cassidoo](https://dev.to/cassidoo/make-line-breaks-work-when-you-render-text-in-a-react-or-vue-component-4m0n)

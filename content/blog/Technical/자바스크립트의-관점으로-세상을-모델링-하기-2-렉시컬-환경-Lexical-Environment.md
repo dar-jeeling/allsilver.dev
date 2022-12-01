@@ -199,37 +199,13 @@ outer()
 
 ## 참고 자료
 
-더보기
-
-1\. ECMA Script - 9.1 Environment Record : [https://tc39.es/ecma262/#sec-environment-records](https://tc39.es/ecma262/#sec-environment-records)[ECMAScript® 2023 Language Specification\
-\
-\
-The first and subsequent editions of ECMAScript have provided, for certain operators, implicit numeric conversions that could lose precision or truncate. These legacy implicit conversions are maintained for backward compatibility, but not provided for BigI\
-\
-\
-tc39.es](https://tc39.es/ecma262/#sec-environment-records)
+1\. ECMA Script - 9.1 Environment Record : [https://tc39.es/ecma262/#sec-environment-records](https://tc39.es/ecma262/#sec-environment-records)
 
 2\. TOAST UI - 자바스크립트 함수 (3) - Lexical Environment : [https://ui.toast.com/weekly-pick/ko_20171006](https://ui.toast.com/weekly-pick/ko_20171006)
-
-[자바스크립트 함수 (3) - Lexical Environment\
-\
-\
-지난 글을 통해 함수의 생성과 함수의 호출 과정에 대해 간략히 알아보았다. 앞선 글(함수의 호출)에서 간단히 설명한 Execution Context에는 LexicalEnvironment와 VariableEnvironment라는 컴포넌트가 있다. 기\
-\
-\
-ui.toast.com](https://ui.toast.com/weekly-pick/ko_20171006)
 
 3\. Youtube - Lexical Environment by 김훈민 대리 (nts 프론트엔드 개발팀) : [https://www.youtube.com/watch?v=OPc73p2d0T8](https://www.youtube.com/watch?v=OPc73p2d0T8)
 
 4\. Velog - dogyeong.log (Lexical Environment)  - [https://velog.io/@shroad1802/environment-record](https://velog.io/@shroad1802/environment-record)
-
-[Environment Record\
-\
-\
-ECMAScript의 Environment Record에 대해 정리해봤습니다.\
-\
-\
-velog.io](https://velog.io/@shroad1802/environment-record)
 
 5\. 자바스크립트는 왜 프로토타입을 선택했을까? : [https://www.notion.so/breakyourlimit/4df11c42d5804dcc8cebf5a618903507](https://www.notion.so/breakyourlimit/4df11c42d5804dcc8cebf5a618903507)
 
