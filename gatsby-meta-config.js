@@ -1,9 +1,10 @@
 module.exports = {
-  title: `다은킴 개발 블로그`,
-  description: `Blog posted about ...`,
-  author: `다은킴`,
+  title: `AllSilver 개발 블로그`,
+  description: `AllSilver의 개발 블로그입니다. 배운 내용이나 개발한 내용들을 기록합니다.`,
+  author: `AllSilver`,
   introduction: `철학적인 개발자를 꿈꿉니다.`,
   siteUrl: `https://dar-jeeling.github.io`, // Your blog site url
+  image: `/content/assets/profile.png`,
   social: {
     twitter: ``, // Your Twitter account
     github: `dar-jeeling`, // Your GitHub account
@@ -13,7 +14,6 @@ module.exports = {
     instagram: ``, // Your Instagram account
     tistory: `break-your-limit`,
   },
-  oldBlog: `https://break-your-limit.tistory.com/`,
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
