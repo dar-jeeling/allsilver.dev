@@ -83,6 +83,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: metaConfig.ga,
+        head: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: metaConfig.title,
