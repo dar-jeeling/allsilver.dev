@@ -56,15 +56,7 @@ draft: false
 
 ### 인증 문제 해결
 
-[https://break-your-limit.tistory.com/77](https://break-your-limit.tistory.com/77)
-
-[Recoil과 Cookie를 이용한 Next.js의 SSR 환경에서 전역 인증 관리하기 (JWT 토큰, 새로 고침 유지)\
-\
-\
-들어가면서 이전 Art.zip 회고에서 배포 사이트에서 쿠키를 읽을 수 없는 문제가 있었기 때문에 새로 고침을 하여 앱이 새로 구동될 때마다 로그인이 풀리는 버그가 존재하였다. 이 글에서는 어떻\
-\
-\
-break-your-limit.tistory.com](https://break-your-limit.tistory.com/77)
+[Recoil과 Cookie를 이용한 Next.js의 SSR 환경에서 전역 인증 관리하기 (JWT 토큰, 새로 고침 유지)](https://dar-jeeling.github.io/Technical/Recoil%EA%B3%BC-Cookie%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Nextjs%EC%9D%98-SSR-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%A0%84%EC%97%AD-%EC%9D%B8%EC%A6%9D-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-JWT-%ED%86%A0%ED%81%B0-%EC%83%88%EB%A1%9C-%EA%B3%A0%EC%B9%A8-%EC%9C%A0%EC%A7%80/)
 
 개인적으로는 가장 뿌듯한 작업이다. 대략 2개월 동안의 삽질이 있었고, 발상은 산책하다가 전구처럼 스쳐지나갔었다..
 
@@ -108,7 +100,7 @@ Next.js를 사용하면서 아무 생각없이 코드를 작성하는 것 보다
 
 이를 위한 Factor들은 다음과 같다.
 
-- [(Performance) next/Image를 적용한 이미지 최적화](https://break-your-limit.tistory.com/76)
+- [(Performance) next/Image를 적용한 이미지 최적화](https://dar-jeeling.github.io/Technical/nextImage-%EC%A0%81%EC%9A%A9%EA%B8%B0/)
 - (Performance) 부분적으로 SWR 을 이용하여 Client Data Fetching 최적화
 - (SEO) 사용할 수 있는 부분에 SSR 사용하기
 - (Acessibility) 각 페이지에 meta 정보 추가하기
