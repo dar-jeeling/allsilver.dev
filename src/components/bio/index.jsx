@@ -9,7 +9,7 @@ export const Bio = forwardRef((props, ref) => {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social, introduction, oldBlog } = data.site.siteMetadata
+        const { author, social, introduction } = data.site.siteMetadata
 
         return (
           <div ref={ref} className="bio">
