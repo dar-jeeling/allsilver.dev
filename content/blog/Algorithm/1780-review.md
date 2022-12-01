@@ -37,7 +37,7 @@ draft: false
     <summary><b>코드</b></summary>
     <div markdown="1">
 
-  ```c++
+  ```cpp
   for (int i = 0; i < 3; i++) {
     for (int j = 0; j < 3; j++) {
       func(section, r + i * section, c + j * section);
@@ -55,7 +55,7 @@ draft: false
      <summary><b>코드</b></summary>
      <div markdown="1">
 
-  ```c++
+  ```cpp
   int cnt[3];
 
   // paper[r][c] 값의 count 증가
@@ -75,7 +75,7 @@ draft: false
 
 # 코드
 
-```c++
+```cpp
 int cnt[3];
 
 bool isCut(int n, int r, int c) {
