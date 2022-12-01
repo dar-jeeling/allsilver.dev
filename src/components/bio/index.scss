@@ -27,6 +27,21 @@
     border-radius: 8px;
     transform-origin: center;
     animation: flutter 2s infinite linear;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      z-index: 999;
+      background: url('/images/mascot.png');
+      display: inline-block;
+      width: 45px;
+      height: 50px;
+      background-size: contain;
+      content: '';
+      transform: rotate(-10deg);
+      right: -35px;
+      bottom: 0;
+    }
   }
 
   .author-introduction {
