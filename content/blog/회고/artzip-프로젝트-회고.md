@@ -8,7 +8,10 @@ draft: false
 
 프로그래머스 데브코스 최종프로젝트로 진행한 artzip에 대한 회고이다.
 
-더보기
+사실은 현재까지도 리팩터링이 계속 진행되고 있는 프로젝트라서,
+리팩터링까지 마치고 나서 회고를 작성하고 싶었으나
+프로젝트 기간 내로 구현한 이슈 등을 아직 기억이 살아있을 때 작성해두고 싶으므로
+이 회고의 시점은 리팩터링 들어가기 전의 시점까지의 회고이다.
 
 ## 프로젝트 일지
 
@@ -16,27 +19,11 @@ draft: false
 
 [[아트zip] 프로젝트 일지, TIL](https://break-your-limit.tistory.com/63)
 
-[GitHub - prgrms-web-devcourse/Team-BackFro-ArtZip-FE: 🏠 ArtZip, 세상 모든 전시회를 한 번에\
-\
-\
-🏠 ArtZip, 세상 모든 전시회를 한 번에. Contribute to prgrms-web-devcourse/Team-BackFro-ArtZip-FE development by creating an account on GitHub.\
-\
-\
-github.com](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE)[아트집(Art.zip)\
-\
-\
-미술 전시회를 조회하고 후기를 공유할 수 있는 서비스입니다.\
-\
-\
-artzip.shop](https://artzip.shop/)
+## 프로젝트 외부 링크
 
-사실은 현재까지도 리팩터링이 계속 진행되고 있는 프로젝트라서,
+[GitHub - 🏠 ArtZip, 세상 모든 전시회를 한 번에](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE)
 
-리팩터링까지 마치고 나서 회고를 작성하고 싶었으나,
-
-프로젝트 기간 내로 구현한 이슈 등을 아직 기억이 살아있을 때 작성해두고 싶으므로
-
-이 회고의 시점은 리팩터링 들어가기 전의 시점까지의 회고이다.
+~~[아트집(Art.zip)](https://artzip.shop/)~~ (현재 서버 닫힘)
 
 ## 프로젝트를 진행하기 전에
 
@@ -124,13 +111,7 @@ SWR는 러닝커브가 낮다고는 하지만, 어쨌던간에 어느정도 이�
 
 #### [MSW](https://mswjs.io/)
 
-[Mocking으로 생산성까지 챙기는 FE 개발\
-\
-\
-안녕하세요, 카카오엔터프라이즈 검색플랫폼프론트파트의 Lawrence.net입니다. 프론트엔드 개발 업무의 효율성을 높이기 위한 방법의 하나로 고민해 본 Mocking에 대해 설명하고 이를 적용했던 사례\
-\
-\
-tech.kakao.com](https://tech.kakao.com/2021/09/29/mocking-fe/)
+> [Mocking으로 생산성까지 챙기는 FE 개발 | 카카오엔터프라이즈 기술 블로그](https://tech.kakao.com/2021/09/29/mocking-fe/)
 
 모던 자바스크립트 딥다이브 스터디를 함께 하는 팀원이 추천해주셔서 활용하게 된 라이브러리이다.
 
@@ -180,15 +161,7 @@ tech.kakao.com](https://tech.kakao.com/2021/09/29/mocking-fe/)
 
 #### 서버사이드 렌더링과 인증
 
-[https://maxschmitt.me/posts/next-js-http-only-cookie-auth-tokens/](https://maxschmitt.me/posts/next-js-http-only-cookie-auth-tokens/)
-
-[Next.js: Using HTTP-Only Cookies for Secure Authentication - Max Schmitt\
-\
-\
-Most modern REST and GraphQL APIs expect an authentication token as an HTTP header in order to identify the currently logged-in user. That means the frontend application needs to store the user's auth token somewhere. The Problem with localStorage and Norm\
-\
-\
-maxschmitt.me](https://maxschmitt.me/posts/next-js-http-only-cookie-auth-tokens/)
+> [Next.js: Using HTTP-Only Cookies for Secure Authentication - Max Schmitt](https://maxschmitt.me/posts/next-js-http-only-cookie-auth-tokens/)
 
 이는 특히나 `NextJS`를 사용하여 서버사이드 렌더링을 도입하면서 더욱 뼈저리게 느꼈다. 서버사이드렌더링도 처음 사용해보았고, 그 안에서 인증을 구현하는 것도 처음이라서 `React` 의 CSR 방식의 인증만 생각하였던 것이 화근이였다.
 
@@ -210,13 +183,7 @@ maxschmitt.me](https://maxschmitt.me/posts/next-js-http-only-cookie-auth-tokens/
 
 - 해결 방법
 
-[Recoil과 Cookie를 이용한 Next.js의 SSR 환경에서 전역 인증 관리하기 (JWT 토큰, 새로 고침 유지)\
-\
-\
-들어가면서  이전 Art.zip 회고에서 배포 사이트에서 쿠키를 읽을 수 없는 문제가 있었기 때문에 새로 고침을 하여 앱이 새로 구동될 때마다 로그인이 풀리는 버그가 존재하였다.  이 글에서는\
-\
-\
-break-your-limit.tistory.com](https://break-your-limit.tistory.com/77)
+> [Recoil과 Cookie를 이용한 Next.js의 SSR 환경에서 전역 인증 관리하기 (JWT 토큰, 새로 고침 유지)](https://break-your-limit.tistory.com/77)
 
 ### 코드는 바로바로 정돈하기
 

@@ -179,8 +179,6 @@ const 키워드를 쓴다는 것은, 식별자가 더 이상 stack 영역의 다
 
 a = 2로 재할당을 하기 위해서는 stack 다시 메모리 공간을 만들고 값을 저장한 후, 그 주소를 변수가 가리키도록 해야하는데 const 키워드를 사용하였으므로 변수는 이제 주소 a에 붙어있는 꼴이 되어, 이동할 수 없기 때문에 원시 타입의 객체인 경우 수정이 불가능하다.
 
-더보기
-
 ```javascript
 const a;
 console.log(a); // ERROR!!
@@ -225,8 +223,6 @@ SyntaxError: Missing initializer in const declaration
 
 3\. 변수는 stack의 메모리 주소를 가리키는 값이라고 생각할 수 있다.
 
-더보기
-
 ```javascript
 const a = []
 const b = []
@@ -235,22 +231,6 @@ a = b // 에러가 나는 이유는??
 
 ### 참고자료
 
-[https://felixgerschau.com/javascript-memory-management/](https://felixgerschau.com/javascript-memory-management/)
+> [JavaScript's Memory Management Explained | felixgerschau.com](https://felixgerschau.com/javascript-memory-management/)
 
-[JavaScript's Memory Management Explained\
-\
-\
-Even though the JavaScript engine manages memory for us, it's good to know what happens under the hood.\
-\
-\
-felixgerschau.com](https://felixgerschau.com/javascript-memory-management/)
-
-[https://stackoverflow.com/questions/639514/how-can-i-get-the-memory-address-of-a-javascript-variable](https://stackoverflow.com/questions/639514/how-can-i-get-the-memory-address-of-a-javascript-variable)
-
-[How can I get the memory address of a JavaScript variable?\
-\
-\
-Is it possible to find the memory address of a JavaScript variable? The JavaScript code is part of (embedded into) a normal application where JavaScript is used as a front end to C++ and does not ...\
-\
-\
-stackoverflow.com](https://stackoverflow.com/questions/639514/how-can-i-get-the-memory-address-of-a-javascript-variable)
+> [How can I get the memory address of a JavaScript variable? | stackoverflow](https://stackoverflow.com/questions/639514/how-can-i-get-the-memory-address-of-a-javascript-variable)

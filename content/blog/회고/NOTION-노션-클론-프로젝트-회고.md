@@ -66,15 +66,7 @@ DocumentList에서 Document의 목록을 받은 후, 처리하는 과정에서, 
 
 #### Pub-Sub 패턴 사용해보기
 
-[https://www.rinae.dev/posts/why-every-beginner-front-end-developer-should-know-publish-subscribe-pattern-kr](https://www.rinae.dev/posts/why-every-beginner-front-end-developer-should-know-publish-subscribe-pattern-kr)
-
-[[번역] 초보 프론트엔드 개발자들을 위한 Pub-Sub(Publish-Subscribe) 패턴을 알아보기\
-\
-\
-비동기 자바스크립트 코드를 덜 괴롭게 이해하는 방법\
-\
-\
-www.rinae.dev](https://rinae.dev/posts/why-every-beginner-front-end-developer-should-know-publish-subscribe-pattern-kr)
+[[번역] 초보 프론트엔드 개발자들을 위한 Pub-Sub(Publish-Subscribe) 패턴을 알아보기 | rinae.dev](https://www.rinae.dev/posts/why-every-beginner-front-end-developer-should-know-publish-subscribe-pattern-kr)
 
 SPA 형태를 만들기 위하여, 왼쪽에는 Sidebar를 두고 오른쪽에는 page(RootPage, PostEditPage)를 두어, app 에서 이를 렌더링하는 구조를 만들었다. 하지만, 여기서 문제가 생긴 점이 있었다. 어떤 컴포넌트의 변경이 전체 상태에 영향을 주게 되어, 다른 컴포넌트를 다시 렌더링 해야하는 것이였다.
 
@@ -120,15 +112,7 @@ Clean Code에서 클린코드는 습관이라는 말이 있다. 동감한다. �
 
 아! 그리고 esLint와 Prettier를 연계해서 처음으로 사용해봤는데, 진짜 좋았다!
 
-[https://velog.io/@\_jouz_ryul/ESLint-Prettier-Airbnb-Style-Guide%EB%A1%9C-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0](https://velog.io/@_jouz_ryul/ESLint-Prettier-Airbnb-Style-Guide%EB%A1%9C-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
-
-[ESLint & Prettier, Airbnb Style Guide로 설정하기\
-\
-\
-코드의 가독성을 높혀주고 에러나 컨벤션에 관한 경고 해주는 유명한 툴이 있는데바로 ESLint와 Prettier입니다. 매번 멘토님의 블로그를 보고 설치하고 설정하고 사용하던 ESLint와 Prettier를 가장 유\
-\
-\
-velog.io](https://velog.io/@_jouz_ryul/ESLint-Prettier-Airbnb-Style-Guide로-설정하기)
+[ESLint & Prettier, Airbnb Style Guide로 설정하기 | velog](https://velog.io/@_jouz_ryul/ESLint-Prettier-Airbnb-Style-Guide%EB%A1%9C-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
 
 #### 이상한 버그
 

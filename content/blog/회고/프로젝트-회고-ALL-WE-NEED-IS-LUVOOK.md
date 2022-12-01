@@ -16,24 +16,11 @@ draft: false
 
 #### 배포 사이트
 
-[https://luvook.netlify.app/](https://luvook.netlify.app/)
-
-[지금 당신에게 필요한 책, 러북\
-\
-\
-luvook.netlify.app](https://luvook.netlify.app/)
+> [지금 당신에게 필요한 책, 러북](https://luvook.netlify.app/)
 
 #### 깃헙 README
 
-[https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun)
-
-[GitHub - prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun: 📚 지금 당신에게 필요한 책, <러북>\
-\
-\
-📚 지금 당신에게 필요한 책, <러북>. Contribute to prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun development by creating an account on GitHub.\
-\
-\
-github.com](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun)
+> [GitHub - prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun: 📚 지금 당신에게 필요한 책, <러북>](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun)
 
 ## HighLight
 
@@ -58,15 +45,7 @@ github.com](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun)
 
 ## 동료들에게 어떻게 배울 수 있었나?
 
-[https://prgrms.notion.site/f567b7542b3d4708be7827b91c74e4b6](https://prgrms.notion.site/f567b7542b3d4708be7827b91c74e4b6)
-
-[지금 당신에게 필요한 책, <러북>\
-\
-\
-팀장 : 황수경, 팀원 : 김다은, 김태욱, 용상윤\
-\
-\
-prgrms.notion.site](https://prgrms.notion.site/f567b7542b3d4708be7827b91c74e4b6)
+- [Notion - 지금 당신에게 필요한 책, <러북>](https://prgrms.notion.site/f567b7542b3d4708be7827b91c74e4b6)
 
 제대로 된 협업을 경험한 적이 거의 없었어서, 이번 프로젝트에서 특히나, 협업과 동료들을 통해서 많은 내용을 배울 수 있었다. 특히나 개발자들이 자주 사용하는 소통 툴을 이용하여 개발자 다운 소통을 할 수 있었다.
 

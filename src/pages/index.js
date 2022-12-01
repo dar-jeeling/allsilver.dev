@@ -30,6 +30,7 @@ export default ({ data, location }) => {
     'Technical',
     'Algorithm',
     '회고',
+    'Project',
     // 'TIL',
     '스크랩북',
     '데브코스',
