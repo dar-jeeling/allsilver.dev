@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "css-loader": "^6.7.2",
+    "dayjs": "^1.11.6",
     "gatsby": "^2.2.8",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-feed": "^2.1.0",
