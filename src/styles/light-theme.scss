@@ -79,4 +79,11 @@ body.light {
     background: $light-inline-dimmed-color;
     color: $light-inline-text-color;
   }
+
+  // resume
+  .about {
+    a:hover {
+      text-shadow: $light-hover-text-shadow;
+    }
+  }
 }

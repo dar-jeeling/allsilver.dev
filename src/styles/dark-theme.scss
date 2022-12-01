@@ -90,4 +90,11 @@ body.dark {
     background: $dark-inline-dimmed-color;
     color: $dark-inline-text-color;
   }
+
+  // resume
+  .about {
+    a:hover {
+      text-shadow: $dark-hover-text-shadow;
+    }
+  }
 }
