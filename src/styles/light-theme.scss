@@ -70,6 +70,10 @@ body.light {
     }
   }
 
+  blockquote {
+    border-left: 4px solid #8bc6ec;
+    background-color: whitesmoke;
+  }
   /* Inline code */
   :not(pre) > code[class*='language-'] {
     background: $light-inline-dimmed-color;

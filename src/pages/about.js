@@ -5,6 +5,8 @@ import { rhythm } from '../utils/typography'
 import * as Lang from '../constants'
 import { Layout } from '../layout'
 import { Header } from '../components/header'
+// import '../styles/resume.scss'
+import '../styles/resume.scss'
 
 export default ({ data, location }) => {
   const resumes = data.allMarkdownRemark.edges
@@ -16,6 +18,7 @@ export default ({ data, location }) => {
   return (
     <Layout location={location} title="블로그로 돌아가기">
       <div
+        class="about"
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,

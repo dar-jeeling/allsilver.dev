@@ -1,0 +1,57 @@
+.about {
+  h1 {
+    border-bottom: none;
+    width: fit-content;
+    padding: 30px 0 8px;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      width: 102%;
+      height: 10px;
+      transform: skew(-12deg);
+      background: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+      z-index: -1;
+    }
+  }
+
+  h2 {
+    border-bottom: none;
+    position: relative;
+    width: fit-content;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: -16px;
+      width: 10px;
+      height: 100%;
+      background-color: #8bc6ec;
+    }
+  }
+
+  h3 {
+    border-bottom: none;
+    position: relative;
+    width: fit-content;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: -10px;
+      width: 8px;
+      height: 100%;
+      background-color: #8bc6ec;
+    }
+  }
+
+  blockquote {
+    color: #444444;
+    padding: 1.2em 1em;
+    line-height: 1.6;
+    position: relative;
+    // background: whitesmoke;
+  }
+}
