@@ -8,7 +8,6 @@
   box-shadow: none;
   transition: text-shadow 0.3s, opacity 0.4s;
   opacity: 0;
-
   p {
     font-size: 90%;
     line-height: 1.4;
@@ -17,4 +16,18 @@
 
 .thumbnail.visible {
   opacity: 1;
+}
+
+.thumbnail-item {
+  display: -webkit-box;
+  width: fit-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.thumbnail-item__date {
+  font-weight: lighter;
+  color: silver;
 }
