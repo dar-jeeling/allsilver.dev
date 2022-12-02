@@ -5,11 +5,14 @@ import { Header } from '../components/header'
 import { ThemeSwitch } from '../components/theme-switch'
 import { Footer } from '../components/footer'
 import { rhythm } from '../utils/typography'
+import { useCSR } from '../hooks/useCSR'
+import { ScrollButtonGroup } from '../components/scroll-button-group'
 
 import './index.scss'
 
 export const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
+  const [isCSR] = useCSR()
 
   return (
     <React.Fragment>
@@ -26,6 +29,7 @@ export const Layout = ({ location, title, children }) => {
         <Header title={title} location={location} rootPath={rootPath} />
         {children}
         <Footer />
+        {isCSR && <ScrollButtonGroup />}
       </div>
     </React.Fragment>
   )

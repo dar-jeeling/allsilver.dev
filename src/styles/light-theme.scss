@@ -86,4 +86,12 @@ body.light {
       text-shadow: $light-hover-text-shadow;
     }
   }
+
+  // scroll button
+  .scroll-button {
+    &:hover {
+      background-color: $dark-background-color;
+      color: $main-theme-color;
+    }
+  }
 }

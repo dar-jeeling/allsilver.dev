@@ -97,4 +97,14 @@ body.dark {
       text-shadow: $dark-hover-text-shadow;
     }
   }
+
+  // scroll button
+  .scroll-button {
+    color: $dark-background-color;
+
+    &:hover {
+      background-color: white;
+      color: $main-theme-color;
+    }
+  }
 }
