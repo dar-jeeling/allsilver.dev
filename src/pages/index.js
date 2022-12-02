@@ -1,6 +1,6 @@
 import { graphql } from 'gatsby'
 import _ from 'lodash'
-import React, { useMemo, useRef, useEffect, useState } from 'react'
+import React, { useRef, useEffect, useState, useCallback } from 'react'
 import { Bio } from '../components/bio'
 import { Category } from '../components/category'
 import { Contents } from '../components/contents'
@@ -13,7 +13,7 @@ import { useScrollEvent } from '../hooks/useScrollEvent'
 import { Layout } from '../layout'
 import * as Dom from '../utils/dom'
 import * as EventManager from '../utils/event-manager'
-
+import { CATEGORY_TYPE } from '../constants'
 const BASE_LINE = 80
 
 function getDistance(currentPos) {
@@ -41,6 +41,26 @@ export default ({ data, location }) => {
   //   () => _.uniq(posts.map(({ node }) => node.frontmatter.category)),
   //   []
   // )
+
+  const countCategoryPost = useCallback(() => {
+    const countMap = new Map()
+    countMap.set(CATEGORY_TYPE.ALL, posts.length)
+
+    posts.map(({ node }) => {
+      const currentCategory = node.frontmatter.category
+
+      if (!countMap.has(currentCategory)) {
+        countMap.set(currentCategory, 1)
+      } else {
+        const currentCount = countMap.get(currentCategory)
+        countMap.set(currentCategory, currentCount + 1)
+      }
+    })
+
+    return countMap
+  })
+
+  const categoryCount = countCategoryPost()
 
   const bioRef = useRef(null)
   const [DEST, setDEST] = useState(316)
@@ -81,6 +101,7 @@ export default ({ data, location }) => {
         categories={categories}
         category={category}
         selectCategory={selectCategory}
+        categoryCount={categoryCount}
       />
       <Contents
         posts={posts}
