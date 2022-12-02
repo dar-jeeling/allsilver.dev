@@ -3,16 +3,21 @@ title: '[프로젝트 회고] ALL WE NEED IS LUVOOK'
 date: 2022-06-26 21:29:42
 category: '회고'
 tags: ['LUVOOK', '프로젝트_회고']
+thumbnail: '../../assets/oldThumbnails/luvook_thumb.png'
 draft: false
 ---
 
-## 들어가면서
+![](../../assets/oldThumbnails/luvook_thumb.png)
 
-![](https://blog.kakaocdn.net/dn/p4UQI/btrFJlYEAQd/k6ra1jqSp8nbKzxlywcBu0/img.gif)LUVOOK 미리보기
+## 들어가면서
 
 데브코스의 절반 이상을 함께한 팀원들과의 프로젝트가 끝났다.
 
 우여곡절이 많았지만, 처음에 완성하고자 하는 방향성으로 잘 나아간 프로젝트라고 생각한다.
+
+### LUVOOK 미리보기
+
+![](https://blog.kakaocdn.net/dn/p4UQI/btrFJlYEAQd/k6ra1jqSp8nbKzxlywcBu0/img.gif)
 
 #### 배포 사이트
 

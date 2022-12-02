@@ -4,7 +4,10 @@ date: 2022-09-24 02:14:51
 tags: ['회고', 'Artzip']
 category: '회고'
 draft: false
+thumbnail: '../../assets/oldThumbnails/artzip_thumb.png'
 ---
+
+![](../../assets/oldThumbnails/artzip_thumb.png)
 
 프로그래머스 데브코스 최종프로젝트로 진행한 artzip에 대한 회고이다.
 

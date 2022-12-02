@@ -37,6 +37,7 @@ export const Category = ({
       id="category"
       style={{
         margin: `0 -${rhythm(3 / 4)}`,
+        marginBottom: '20px',
       }}
     >
       <Item

@@ -38,15 +38,7 @@ draft: false
 
 #### Document Tree 토글 구조 만들기
 
-[https://www.w3schools.com/howto/howto_js_treeview.asp](https://www.w3schools.com/howto/howto_js_treeview.asp)
-
-[How To Create a Tree View\
-\
-\
-W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.\
-\
-\
-www.w3schools.com](https://www.w3schools.com/howto/howto_js_treeview.asp)
+[How To Create a Tree View](https://www.w3schools.com/howto/howto_js_treeview.asp)
 
 DocumentList에서 Document의 목록을 받은 후, 처리하는 과정에서, 재귀를 통하여 Tree 구조를 만드는 것 자체는 자명했으나.. 토글 기능을 추가하는 점에서 어려움을 겪었다. 결론을 먼저 말하자면, EventListener를 통하여 click 이벤트가 일어났을 때 마다 CSS 속성을 변경하는 식으로 토글을 구현하였다. **이 때, 자바스크립트에서 지원하는 classList를 활용하여 CSS 속성을 제어한다는 점이 신기하다고 생각하였다.** 또한, 이 경험은.. 후에 SPA를 구현할 때도 사용하게 된다.
 

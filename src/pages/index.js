@@ -135,6 +135,16 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            thumbnail {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 1200
+                  height: 500
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP, AVIF]
+                )
+              }
+            }
             title
             category
             draft
