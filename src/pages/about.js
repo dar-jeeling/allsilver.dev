@@ -1,22 +1,21 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
 import { rhythm } from '../utils/typography'
 import * as Lang from '../constants'
 import { Layout } from '../layout'
-import { Header } from '../components/header'
-// import '../styles/resume.scss'
 import '../styles/resume.scss'
+import { RESUME_TITLE } from '../constants'
+import { Head } from '../components/head'
 
 export default ({ data, location }) => {
   const resumes = data.allMarkdownRemark.edges
-
   const resume = resumes
     .filter(({ node }) => node.frontmatter.lang === Lang.KOREAN)
     .map(({ node }) => node)[0]
 
   return (
     <Layout location={location} title="블로그로 돌아가기">
+      <Head title={RESUME_TITLE} />
       <div
         class="about"
         style={{
