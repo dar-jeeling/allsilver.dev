@@ -126,6 +126,13 @@ module.exports = {
         publisherId: metaConfig.ad,
       },
     },
+    {
+      resolve: 'gatsby-plugin-page-progress',
+      options: {
+        includePaths: [],
+        excludePaths: ['/'],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
