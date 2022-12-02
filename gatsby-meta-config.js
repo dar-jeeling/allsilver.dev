@@ -4,7 +4,7 @@ module.exports = {
   author: `AllSilver`,
   introduction: `철학적인 개발자를 꿈꿉니다.`,
   siteUrl: `https://dar-jeeling.github.io`, // Your blog site url
-  image: `/content/assets/profile.png`,
+  image: `/images/mascot.png`,
   social: {
     twitter: ``, // Your Twitter account
     github: `dar-jeeling`, // Your GitHub account
