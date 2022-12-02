@@ -2,6 +2,7 @@ import React, { useCallback, useRef } from 'react'
 import { rhythm } from '../../utils/typography'
 import './index.scss'
 import { Item } from './item'
+import { CATEGORY_TYPE } from '../../constants'
 
 export const Category = ({
   categories,
@@ -45,7 +46,7 @@ export const Category = ({
         selectedCategory={category}
         onClick={selectCategory}
         scrollToCenter={scrollToCenter}
-        categoryCount={categoryCount.get(category)}
+        categoryCount={categoryCount.get(CATEGORY_TYPE.ALL)}
       />
       {categories.map((title, idx) => (
         <Item
