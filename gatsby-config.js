@@ -110,8 +110,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://your-blog.netlify.app',
-        sitemap: 'https://your-blog.netlify.app/sitemap.xml',
+        host: 'https://dar-jeeling.github.io/',
+        sitemap: 'https://dar-jeeling.github.io/sitemap.xml',
         policy: [
           {
             userAgent: '*',
@@ -141,5 +141,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
+    'gatsby-plugin-advanced-sitemap',
   ],
 }
