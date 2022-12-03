@@ -4,7 +4,7 @@ module.exports = {
   author: `AllSilver`,
   introduction: `철학적인 개발자를 꿈꿉니다.`,
   siteUrl: `https://dar-jeeling.github.io`, // Your blog site url
-  image: `/images/mascot.png`,
+  image: `/images/christmas_full.png`,
   social: {
     twitter: ``, // Your Twitter account
     github: `dar-jeeling`, // Your GitHub account
@@ -14,7 +14,7 @@ module.exports = {
     instagram: ``, // Your Instagram account
     tistory: `break-your-limit`,
   },
-  icon: `content/assets/felog.png`, // Add your favicon
+  icon: `content/assets/santa.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.

@@ -32,15 +32,15 @@
     &::after {
       position: absolute;
       z-index: 999;
-      background: url('/images/mascot.png');
+      background: url('/images/note.png');
       display: inline-block;
-      width: 45px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       background-size: contain;
       content: '';
       transform: rotate(-10deg);
-      right: -35px;
-      bottom: 0;
+      right: -50px;
+      bottom: -5px;
     }
   }
 
