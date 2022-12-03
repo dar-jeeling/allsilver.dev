@@ -42,7 +42,7 @@ thumbnail: '../../assets/oldThumbnails/artzip_thumb.png'
 
 주제 자체가 독특하고 재미있는 건 아니지만, 이 주제는 위의 1\. 과 2.의 조건을 잘 충족하는 주제이다.
 
-#### **1\. 우리가 사용하는 기술 스택과 잘 어우러지고**
+**1\. 우리가 사용하는 기술 스택과 잘 어우러지고**
 
 프로젝트 이전까지 우리 팀은 `NextJS`를 사용하기로 하였고, 공식문서를 매일매일 읽는 스터디를 진행하였다. 따라서 `NextJS`를 필두로 하는 프로젝트를 만드는 것을 계획하였다.
 
@@ -54,7 +54,7 @@ thumbnail: '../../assets/oldThumbnails/artzip_thumb.png'
 
 를 잘 활용할 수 있을 것 같았다.
 
-#### **2\. 많은 것을 시도해 볼 수 있는 프로젝트를 만들어본다**
+**2\. 많은 것을 시도해 볼 수 있는 프로젝트를 만들어본다**
 
 그리고 이 후 단락에서도 이야기하겠지만 `NextJS`를 제외하고도 여러가지 기술 스택이나 패턴들을 차용할 수 있는 주제이다.
 
@@ -84,13 +84,13 @@ thumbnail: '../../assets/oldThumbnails/artzip_thumb.png'
 
 아래는 프로젝트를 하기 위해서 새롭게 채용한 기술 스택들이다.
 
-#### [NextJS](https://nextjs.org/)
+[NextJS](https://nextjs.org/)
 
 주제를 선정하기 전에 선정한 기술 스택이다. 위에서 언급했듯이, 개인적으로는 주제를 선정할 때 해당 프레임워크를 잘 활용할 수 있는지가 큰 지분을 차지하였다.
 
 `NextJS`에서 제공하는 렌더링 방식들 외에도 프레임워크라는 특성에서 얻을 수 있는 협업의 용이성이나,  그 외 제공하는 다양한 기능들 (Image Optimization, routing) 을 활용하여 `NextJS`의 기능을 최대한 이용할 수 있었다.
 
-#### [TypeScript](https://www.typescriptlang.org/)
+[TypeScript](https://www.typescriptlang.org/)
 
 Type 을 통해 얻을 수 있는 컴파일 타임에 에러를 잡을 수 있거나, 배포 단계에서 나타나는 타입 관련 문제 (api 응답값이 `null`이나 `undefined`가 들어오는 경우)를 방어할 수 있었다.
 
@@ -98,7 +98,7 @@ Type 을 통해 얻을 수 있는 컴파일 타임에 에러를 잡을 수 있�
 
 API 명세서 필드값을 `typescript`의 `interface` 로 미리 만들어두어 복잡한 api 명세의 필드 값들을 미리 선언하고 사용함으로써, `TypeScript` 가 지원하는 코드 자동완성, 타입 추론과 같은 개발에 편리한 기능들을 이용할 수 있었다.
 
-#### [Recoil](https://recoiljs.org/)
+[Recoil](https://recoiljs.org/)
 
 시간의 부족으로 `Recoil`을 제대로 활용하지는 못하였지만, 전역 유저 상태의 관리와 그 외 몇몇 컴포넌트가 공유하는 상태를 `atom`으로 만들어, 그 상태가 업데이트 되었을 때 불필요한 렌더링이 일어나는 것을 방지하기 위하여 사용하였다.
 
@@ -106,13 +106,13 @@ API 명세서 필드값을 `typescript`의 `interface` 로 미리 만들어두�
 
 따라서, 현재 로그인한 유저의 상태만을 관리하기 위하여 `Recoil`을 사용하게되었다.
 
-#### [SWR](https://swr.vercel.app/ko)
+[SWR](https://swr.vercel.app/ko)
 
 `NextJS` 공식문서 중 Data fetching 파트를 읽으면서, `NextJS`에서 CSR을 활용할 때는 `SWR`를 사용하는 것을 추천한다는 내용을 보고 채택하였다.
 
 SWR는 러닝커브가 낮다고는 하지만, 어쨌던간에 어느정도 이해가 필요한 라이브러리였기 때문에 프로젝트 정규 기간에는 거의 활용하지 못하였고 현재 리팩터링을 진행하면서 CSR 부분을 하나씩 마이그레이션 하고 있다.
 
-#### [MSW](https://mswjs.io/)
+[MSW](https://mswjs.io/)
 
 > [Mocking으로 생산성까지 챙기는 FE 개발 | 카카오엔터프라이즈 기술 블로그](https://tech.kakao.com/2021/09/29/mocking-fe/)
 
@@ -122,7 +122,7 @@ SWR는 러닝커브가 낮다고는 하지만, 어쨌던간에 어느정도 이�
 
 `MSW`를 활용하겠다고 마음먹은 가장 큰 이유는 `NextJS`를 사용함에도 있었는데, `NextJS`의 `getServerSideProps` , `getStaticProps`를 사용함에 있어서 실제 데이터를 가져오는 부분을 미리 구현하는게 좋겠다는 생각이였다.
 
-#### [Vercel](https://vercel.com/)
+[Vercel](https://vercel.com/)
 
 이를 채택하게 된 것에 대해서는 우선 `nextJS`가 `vercel`에서 만들었다는 이유도 있었지만, vercel을 사용하였을 때 사용한 PR들에 vercel bot이 자동으로 preview 배포를 해주는 점이 마음에 들었다는 점도 있었다. 이는 배포 환경에서의 동작 테스트를 할 때 특히나 유용하게 사용할  수 있었다.
 
