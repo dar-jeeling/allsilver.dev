@@ -14,7 +14,7 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
           <base target="_blank" />
-          <meta property="og:image" content="/images/mascot.png" />
+          <meta property="og:image" content="/images/christmas_full.png" />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
