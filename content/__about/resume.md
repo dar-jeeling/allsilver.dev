@@ -40,7 +40,7 @@ lang: 'ko'
 
 # Projects
 
-## Artzip
+## [Art.zip](https://breakyourlimit.notion.site/Artzip-3b72e2396cbc4c74b15e9e6dba11dab6)
 
 **미술 전시회의 정보를 조회하고 후기를 공유할 수 있는 웹 플랫폼**
 
