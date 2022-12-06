@@ -15,7 +15,7 @@ lang: 'ko'
 
 - 프로젝트를 개발하면서 있었던 일들을 기록하고, 프로젝트 개발 종료 후 [회고](https://dar-jeeling.github.io/?category=%ED%9A%8C%EA%B3%A0)를 작성합니다.
 - 팀과의 소통을 위한 기록 역시 중요하다고 생각합니다.
-  - `Notion` 과 `Github` 의 `Discussion`을 활용하여, 팀원들과 프로젝트 이슈를 활발하게 공유합니다.
+  - `Notion` 과 `GitHub` 의 `Discussion`을 활용하여, 팀원들과 프로젝트 이슈를 활발하게 공유합니다.
 
 <div class="contact-and-channel" style="display:flex;justify-content:space-between">
 
@@ -40,7 +40,7 @@ lang: 'ko'
 
 # Projects
 
-## [Art.zip](https://breakyourlimit.notion.site/Artzip-3b72e2396cbc4c74b15e9e6dba11dab6)
+## Art.zip [(자세히 보기)](https://breakyourlimit.notion.site/Artzip-3b72e2396cbc4c74b15e9e6dba11dab6)
 
 **미술 전시회의 정보를 조회하고 후기를 공유할 수 있는 웹 플랫폼**
 
@@ -67,16 +67,16 @@ lang: 'ko'
   - (메인 페이지 기준) 크롬 개발자 도구에서 측정한 resources 용량 `60.6 MB` 에서 `54.4 MB`로 **약 10.23 % 감소**, Load 속도 `10.33 s` 에서 `3.79 s`로 **약 63.31 % 감소**
 - 백엔드 개발에 의존성이 있는 로직을 프론트엔드에서 미리 구현하기 위하여 `MSW` 도입
 - `Vercel` 을 이용한 배포
-- [효율적인 협업을 위한 Github Disscussion 을 이용한 프로젝트 문서화](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions)
+- [효율적인 협업을 위한 GitHub Disscussion 을 이용한 프로젝트 문서화](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions)
 
-## LUVOOK
+## LUVOOK [(자세히 보기)](https://breakyourlimit.notion.site/LUVOOK-c96ff293d90c47f4a9880f487c2d5339)
 
 **도서 문구 기반의 도서 공유 플랫폼**
 
 |               |                                                                                                                                                                                                                                                                                         |
 | :-----------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |   **기간**    | 22.06.06- 22.06.22                                                                                                                                                                                                                                                                      |
-| **외부 링크** | [Github](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun), [Notion](https://www.notion.so/f567b7542b3d4708be7827b91c74e4b6), [프로젝트 회고](https://dar-jeeling.github.io/%ED%9A%8C%EA%B3%A0/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-ALL-WE-NEED-IS-LUVOOK/) |
+| **외부 링크** | [GitHub](https://github.com/prgrms-fe-devcourse/FEDC2_LUVOOK_Jieun), [Notion](https://www.notion.so/f567b7542b3d4708be7827b91c74e4b6), [프로젝트 회고](https://dar-jeeling.github.io/%ED%9A%8C%EA%B3%A0/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-ALL-WE-NEED-IS-LUVOOK/) |
 
 <aside>
 
@@ -90,7 +90,7 @@ lang: 'ko'
 
   - `Button`, `Image`, `Avatar`, `BookCard`, `ListSlider`, `Navbar` 컴포넌트 구현
   - `Storybook` 을 이용한 구현한 컴포넌트 인터렉션 테스트 및 문서화
-  - 이전 프로젝트(`DuckEggs`)에 비해 컴포넌트 재사용으로 인한 코드 중복을 줄일 수 있었으며, 기본 컴포넌트를 통하여 객체 지향 방식의 확장성을 고려한 컴포넌트 설계를 할 수 있었음.
+  - 이전 프로젝트(`DuckEggs`)에 비해 컴포넌트 재사용으로 인한 코드 중복을 줄일 수 있었으며, 프론트엔드 직무의 기본이자 가장 중요한 역량이 되는 기본 컴포넌트 설계 방식에 대해 배울 수 있었음.
 
 - [`Context API` 와 `useReducer`를 이용한 전역 유저 상태 관리 로직 구현](https://dar-jeeling.github.io/Project/220610-220612-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80-TIL/)
 
@@ -98,17 +98,17 @@ lang: 'ko'
 
 - 메인 페이지 구현
   - 메인 페이지의 검색, 카테고리 내 검색 기능 구현
-  - `Promise.all` 을 이용한 데이터 패칭 로직 구현
+  - `Promise.all` 을 이용한 데이터 패칭 로직을 구현하는 등, 각 API 호출 방식에 따라 `async/await` 에만 국한하지 않는 효율적인 데이터 패칭 방식 고려
 - 404 페이지 구현
 
-## DuckEggs
+## DuckEggs [(자세히 보기)](https://www.notion.so/breakyourlimit/DuckEggs-114866f6943d4cb2a32e200792cb770e)
 
 **자연어 분석을 이용한 리뷰 분석 데이터 시각화 플랫폼**
 
 |               |                                                                                                                                     |
 | :-----------: | ----------------------------------------------------------------------------------------------------------------------------------- |
 |   **기간**    | 21.06 - 21.08                                                                                                                       |
-| **외부 링크** | [Github](https://github.com/Hackathon-DuckEggs/PNU-DuckEggs), [Notion](https://www.notion.so/8-19-663785d02b5d4d3d9be230f60208c4dc) |
+| **외부 링크** | [GitHub](https://github.com/Hackathon-DuckEggs/PNU-DuckEggs), [Notion](https://www.notion.so/8-19-663785d02b5d4d3d9be230f60208c4dc) |
 
 > 💡 **Tech Stack**
 >
@@ -122,22 +122,24 @@ lang: 'ko'
 
 # Study
 
-## [모던 JavaScript Deep Dive 스터디](https://www.notion.so/Deep-Dive-cb93ad0db4f941b79fc31ae6a6ff645c)
+## 모던 JavaScript Deep Dive 스터디
 
-|          |                   |
-| :------: | ----------------- |
-| **기간** | 2022.04 - 2022.11 |
+|               |                                                                            |
+| :-----------: | -------------------------------------------------------------------------- |
+|   **기간**    | 2022.04 - 2022.11                                                          |
+| **외부 링크** | [Notion](https://www.notion.so/Deep-Dive-cb93ad0db4f941b79fc31ae6a6ff645c) |
 
 - `JavaScript`의 기본 동작 원리를 이해하기 위한 모던 JavaScript Deep Dive 독서 스터디
 - **스터디 리드 역할**
   - 전반적인 스터디 진행 역할과 각 주의 주제 관련 내용 공유
   - 스터디 주제에 따라 팀원들의 의견을 반영하여 스터디 방식을 유동적으로 결정
 
-## [CS 발표 스터디](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia)
+## CS 발표 스터디
 
-|          |                   |
-| :------: | ----------------- |
-| **기간** | 2022.04 - 2022.07 |
+|               |                                                                      |
+| :-----------: | -------------------------------------------------------------------- |
+|   **기간**    | 2022.04 - 2022.07                                                    |
+| **외부 링크** | [GitHub](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia) |
 
 - 일주일에 한 번, 학습할 CS 키워드를 선택하여 학습한 내용에 대해 발표하는 스터디
 - 해당 CS 키워드에 대한 발표 자료 작성
@@ -149,7 +151,7 @@ lang: 'ko'
 
 - [LexicalEnvironment](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/3%ED%9A%8C%EC%B0%A8/%EA%B9%80%EB%8B%A4%EC%9D%80%20-%20Lexical%20Environment/LexicalEnvironment.md)
 
-- [**프로토타입**](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/2%ED%9A%8C%EC%B0%A8/2%EC%A3%BC%EC%B0%A8-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85_%EA%B9%80%EB%8B%A4%EC%9D%80.md)
+- [프로토타입](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/2%ED%9A%8C%EC%B0%A8/2%EC%A3%BC%EC%B0%A8-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85_%EA%B9%80%EB%8B%A4%EC%9D%80.md)
 
 # Education
 
