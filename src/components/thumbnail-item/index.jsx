@@ -19,10 +19,19 @@ export const ThumbnailItem = ({ node }) => {
             style={{
               borderRadius: '10px',
             }}
+            class="thumbnail-image"
           />
         )}
 
-        <h3>{node.frontmatter.title || node.fields.slug}</h3>
+        <div class="thumbnail-header">
+          <h3 class="thumbnail-item__title">
+            {node.frontmatter.title || node.fields.slug}
+          </h3>
+          <span class="thumbnail-item__category">
+            {node.frontmatter.category}
+          </span>
+        </div>
+
         <p
           class="thumbnail-item"
           dangerouslySetInnerHTML={{ __html: node.excerpt }}
