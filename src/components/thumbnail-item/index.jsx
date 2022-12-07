@@ -16,6 +16,9 @@ export const ThumbnailItem = ({ node }) => {
           <GatsbyImage
             image={thumbnailImage}
             alt={`thumbnail ${node.frontmatter.title}`}
+            style={{
+              borderRadius: '10px',
+            }}
           />
         )}
 
