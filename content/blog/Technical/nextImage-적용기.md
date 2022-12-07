@@ -6,7 +6,7 @@ tags: ['Next.js', 'next/image', 'Artzip']
 draft: false
 ---
 
-> [[Artzip 리팩터링] 최적화 방향 잡기](https://dar-jeeling.github.io/Project/Artzip-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B5%9C%EC%A0%81%ED%99%94-%ED%95%98%EA%B8%B0/)
+> [[Artzip 리팩터링] 최적화 방향 잡기](https://www.allsilver.dev/Project/Artzip-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B5%9C%EC%A0%81%ED%99%94-%ED%95%98%EA%B8%B0/)
 
 위의 글에서 프로젝트의 렌더링이 오래 걸리는 원인을 해결하기 위한 방안으로 "이미지 렌더링 최적화"를 생각하였다.
 

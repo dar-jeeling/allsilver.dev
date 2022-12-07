@@ -18,9 +18,9 @@ thumbnail: '../../assets/oldThumbnails/artzip_thumb.png'
 
 ## 프로젝트 일지
 
-[[artzip] 20220718 프로젝트 일지](https://dar-jeeling.github.io/Project/20220718-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80/)
+[[artzip] 20220718 프로젝트 일지](https://www.allsilver.dev/Project/20220718-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80/)
 
-[[아트zip] 프로젝트 일지, TIL](https://dar-jeeling.github.io/Project/%EC%95%84%ED%8A%B8zip-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80-TIL/)
+[[아트zip] 프로젝트 일지, TIL](https://www.allsilver.dev/Project/%EC%95%84%ED%8A%B8zip-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%BC%EC%A7%80-TIL/)
 
 ## 프로젝트 외부 링크
 
@@ -184,7 +184,7 @@ SWR는 러닝커브가 낮다고는 하지만, 어쨌던간에 어느정도 이�
 
 - 해결 방법
 
-> [Recoil과 Cookie를 이용한 Next.js의 SSR 환경에서 전역 인증 관리하기 (JWT 토큰, 새로 고침 유지)](https://dar-jeeling.github.io/Technical/Recoil%EA%B3%BC-Cookie%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Nextjs%EC%9D%98-SSR-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%A0%84%EC%97%AD-%EC%9D%B8%EC%A6%9D-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-JWT-%ED%86%A0%ED%81%B0-%EC%83%88%EB%A1%9C-%EA%B3%A0%EC%B9%A8-%EC%9C%A0%EC%A7%80/)
+> [Recoil과 Cookie를 이용한 Next.js의 SSR 환경에서 전역 인증 관리하기 (JWT 토큰, 새로 고침 유지)](https://www.allsilver.dev/Technical/Recoil%EA%B3%BC-Cookie%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Nextjs%EC%9D%98-SSR-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%A0%84%EC%97%AD-%EC%9D%B8%EC%A6%9D-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-JWT-%ED%86%A0%ED%81%B0-%EC%83%88%EB%A1%9C-%EA%B3%A0%EC%B9%A8-%EC%9C%A0%EC%A7%80/)
 
 ### 코드는 바로바로 정돈하기
 

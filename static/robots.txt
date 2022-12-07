@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow:
-Sitemap: https://dar-jeeling.github.io/sitemap.xml
+Sitemap: https://www.allsilver.dev/sitemap.xml

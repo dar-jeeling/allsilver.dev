@@ -110,8 +110,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://dar-jeeling.github.io/',
-        sitemap: 'https://dar-jeeling.github.io/sitemap.xml',
+        host: 'https://www.allsilver.dev/',
+        sitemap: 'https://www.allsilver.dev/sitemap.xml',
         policy: [
           {
             userAgent: '*',

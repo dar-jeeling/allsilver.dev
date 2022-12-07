@@ -3,7 +3,7 @@ module.exports = {
   description: `AllSilver의 개발 블로그입니다. 배운 내용이나 개발한 내용들을 기록합니다.`,
   author: `AllSilver`,
   introduction: `철학적인 개발자를 꿈꿉니다.`,
-  siteUrl: `https://dar-jeeling.github.io`, // Your blog site url
+  siteUrl: `https://allsilver.dev`, // Your blog site url
   image: `/images/christmas_full.jpg`,
   social: {
     twitter: ``, // Your Twitter account
@@ -18,7 +18,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'dar-jeeling/dar-jeeling.github.io', // Your repository for archive comment
+    utterances: 'dar-jeeling/allsilver.dev', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
