@@ -23,20 +23,21 @@ export const ThumbnailItem = ({ node }) => {
           />
         )}
 
-        <div class="thumbnail-header">
-          <h3 class="thumbnail-item__title">
-            {node.frontmatter.title || node.fields.slug}
-          </h3>
-          <span class="thumbnail-item__category">
-            {node.frontmatter.category}
-          </span>
-        </div>
+        <h3 class="thumbnail-item__title">
+          {node.frontmatter.title || node.fields.slug}
+        </h3>
 
         <p
           class="thumbnail-item"
           dangerouslySetInnerHTML={{ __html: node.excerpt }}
         />
-        <span class="thumbnail-item__date">{date}</span>
+
+        <div class="thumnail-info__wrapper">
+          <span class="thumbnail-item__date">{date}</span>
+          <span class="thumbnail-item__category">
+            {node.frontmatter.category}
+          </span>
+        </div>
       </div>
     </Link>
   )
