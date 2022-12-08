@@ -1,13 +1,18 @@
 ---
-title: '[NOTION] 노션 클론 프로젝트 회고'
+title: '[프로젝트 회고] 바닐라 JavaScript로 Notion 클론 텍스트 에디터 만들기'
 date: 2022-04-21 16:27:00
-tags: ['프로젝트', '회고']
+tags: ['프로젝트_회고', '노션_클론']
 category: '회고'
 draft: false
-thumbnail: '../../assets/oldThumbnails/notion_thumb.png'
+thumbnail: '../../assets/oldThumbnails/notion_thumb_list.png'
 ---
 
-![](../../assets/oldThumbnails/notion_thumb.png)
+<div class="unsplash-wrapper">
+<img class="unsplash-thumbnail-image" alt="thumbnail" src="../../assets/oldThumbnails/notion_thumb_content.png" />
+<div class="unsplash-author">
+Photo by <a href="https://unsplash.com/@studiopoline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pauline Bernard</a> on <a href="https://unsplash.com/s/photos/notion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</div>
+</div>
 
 ### 들어가면서
 

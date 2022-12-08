@@ -2,7 +2,7 @@
 title: '[프로젝트 회고] ALL WE NEED IS LUVOOK'
 date: 2022-06-26 21:29:42
 category: '회고'
-tags: ['LUVOOK', '프로젝트_회고']
+tags: ['프로젝트_회고', 'LUVOOK']
 thumbnail: '../../assets/oldThumbnails/luvook_thumb.png'
 draft: false
 ---

@@ -1,15 +1,20 @@
 ---
-title: '[artzip] 프로젝트 회고'
+title: '[프로젝트 회고] 전시회 정보를 한 번에 zip, Art.zip'
 date: 2022-09-24 02:14:51
-tags: ['회고', 'Artzip']
+tags: ['프로젝트_회고', 'Art.zip']
 category: '회고'
 draft: false
-thumbnail: '../../assets/oldThumbnails/artzip_thumb.png'
+thumbnail: '../../assets/oldThumbnails/artzip_thumb_list.png'
 ---
 
-![](../../assets/oldThumbnails/artzip_thumb.png)
+<div class="unsplash-wrapper">
+<img class="unsplash-thumbnail-image" alt="thumbnail" src="../../assets/oldThumbnails/artzip_thumb_content.png" />
+<div class="unsplash-author">
+Photo by <a href="https://unsplash.com/@dannie_jing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dannie Jing</a> on <a href="https://unsplash.com/s/photos/white-art-gallery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</div>
+</div>
 
-프로그래머스 데브코스 최종프로젝트로 진행한 artzip에 대한 회고이다.
+프로그래머스 데브코스 최종프로젝트로 진행한 **Art.zip** 에 대한 회고이다.
 
 사실은 현재까지도 리팩터링이 계속 진행되고 있는 프로젝트라서,
 리팩터링까지 마치고 나서 회고를 작성하고 싶었으나
