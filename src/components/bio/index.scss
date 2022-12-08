@@ -5,6 +5,21 @@
 
   .author-description {
     display: flex;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      z-index: 999;
+      background: url('/images/santa_hat.png');
+      display: inline-block;
+      width: 100px;
+      background-size: contain;
+      height: 70px;
+      content: '';
+      transform: rotate(-37deg) scale(0.7);
+      top: -30px;
+      left: -40px;
+    }
   }
 
   .author-image {
@@ -12,6 +27,43 @@
     margin-right: 12px;
     margin-bottom: 0;
     min-width: 72px;
+    position: relative;
+    border-radius: 50%;
+
+    &::after {
+      position: absolute;
+      z-index: 999;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-size: contain;
+      content: '';
+      top: 45%;
+      left: 37%;
+
+      background: radial-gradient(
+        circle closest-corner at 2px 2px,
+        white,
+        #ff7e00
+      );
+
+      box-shadow: 0 0 10px 0.2px #ff7e00;
+      animation: garland-even-anim-one 0.7s infinite;
+    }
+
+    @keyframes garland-even-anim-one {
+      50% {
+        background: radial-gradient(
+          circle closest-corner at 2px 2px,
+          white,
+          #ef4b3f
+        );
+
+        // background-color: #ef4b3f;
+        box-shadow: 0 0 10px 0.2px #ef4b3f;
+      }
+    }
   }
 
   .author-name-prefix {
