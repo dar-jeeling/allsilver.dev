@@ -33,6 +33,7 @@ export default ({ data, location }) => {
     'Project',
     // 'TIL',
     '스크랩북',
+    'Updates',
     '데브코스',
     '괜찮은 생각',
   ]
