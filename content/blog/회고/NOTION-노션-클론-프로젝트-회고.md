@@ -4,7 +4,10 @@ date: 2022-04-21 16:27:00
 tags: ['프로젝트', '회고']
 category: '회고'
 draft: false
+thumbnail: '../../assets/oldThumbnails/notion_thumb.png'
 ---
+
+![](../../assets/oldThumbnails/notion_thumb.png)
 
 ### 들어가면서
 
