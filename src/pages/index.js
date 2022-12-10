@@ -25,6 +25,11 @@ export default ({ data, location }) => {
   const { countOfInitialPost } = siteMetadata.configs
   const posts = data.allMarkdownRemark.edges
 
+  console.log(
+    "%cAllSilver's Devlog ",
+    'font-size:2rem; color:white; background: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%); font-family:"Catamaran"; font-weight: bold;'
+  )
+
   // 카테고리 우선도를 위하여 수동으로 카테고리 정의
   const categories = [
     'Technical',
