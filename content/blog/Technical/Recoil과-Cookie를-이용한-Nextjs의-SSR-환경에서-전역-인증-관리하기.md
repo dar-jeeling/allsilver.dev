@@ -294,6 +294,6 @@ export default ArtZip;
 
 > [Recoil with Storage (feat. effects) - 오픈소스컨설팅 테크블로그](https://tech.osci.kr/2022/07/05/recoil-react-js-state-management/)
 
-> [<RecoilRoot> \| Recoil](https://recoiljs.org/docs/api-reference/core/RecoilRoot/)
+> [\<RecoilRoot\> \| Recoil](https://recoiljs.org/docs/api-reference/core/RecoilRoot/)
 
 > [[react, next.js] SSR환경에서 access_token, refresh_tokne 관리하기(cookie이용) | 티스토리, lemontia](https://lemontia.tistory.com/1012)
