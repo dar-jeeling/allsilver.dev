@@ -34,6 +34,7 @@ export default ({ data, location }) => {
   const categories = [
     'Technical',
     'Algorithm',
+    '독서',
     '회고',
     'Project',
     // 'TIL',
