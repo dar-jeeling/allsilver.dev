@@ -14,6 +14,10 @@ Photo by <a href="https://unsplash.com/@jamessutton_photography?utm_source=unspl
 </div>
 </div>
 
+<br>
+
+> 💡 HTTP는 TCP/IP 계층 위 에서 동작하므로, 아래 계층에서 제공하는 기능들(신뢰성 있는 전송, 데이터 순서 등)을 기본적으로 보장함을 전제로 한다.
+
 ## 키워드
 
 `HTTP`, `TCP/IP`, `웹 리소스`, `MIME Type`, `URI`, `URL`, `HTTP 트랜잭션`, `프록시`, `캐시`, `게이트웨이`
