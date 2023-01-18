@@ -13,7 +13,6 @@ draft: false
 Photo by <a href="https://unsplash.com/@theflouffy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FLOUFFY</a> on  <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/ujUiOCHkqM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </div>
 </div>
-
 <br>
 
 > 💡 HTTP가 느린 이유에는 두 가지 요소가 있다 ; 1. TCP 연결 지연 (TCP Slow Start) 2. 커넥션 지연
