@@ -14,6 +14,8 @@ import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
 import { Utterances } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
+import { Tags } from '../components/tags'
+import { CategorySingle } from '../components/categorySingle'
 
 import '../styles/code.scss'
 import 'katex/dist/katex.min.css'
@@ -29,13 +31,18 @@ export default ({ data, pageContext, location }) => {
   const metaData = data.site.siteMetadata
   const { title, comment, siteUrl, author, sponsor } = metaData
   const { disqusShortName, utterances } = comment
-  const { title: postTitle, date } = post.frontmatter
+  const { title: postTitle, date, tags, category } = post.frontmatter
 
   return (
     <Layout location={location} title={title}>
       <Head title={postTitle} description={post.excerpt} />
+      <Tags tags={tags} />
+
+      <CategorySingle category={category} style={{ marginLeft: 0 }} />
+
       <PostTitle title={postTitle} />
       <PostDate date={date} />
+
       <PostContainer html={post.html} />
       <SocialShare title={postTitle} author={author} />
       {!!sponsor.buyMeACoffeeId && (
@@ -80,6 +87,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        category
+        tags
       }
     }
   }
