@@ -22,7 +22,6 @@ const TAG_START = 6
 
 export default ({ data, location }) => {
   const currentTag = decodeURI(location.pathname.slice(TAG_START))
-  console.log('currentTag', currentTag)
 
   const { siteMetadata } = data.site
   const { countOfInitialPost } = siteMetadata.configs
