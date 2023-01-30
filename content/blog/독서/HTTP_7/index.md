@@ -1,7 +1,7 @@
 ---
 title: '[HTTP 완벽 가이드] 07. 캐시'
 date: 2023-01-24 23:40:32
-tags: ['HTTP 완벽 가이드']
+tags: ['HTTP 완벽 가이드', '캐시']
 category: '독서'
 thumbnail: './images/thumbnail.png'
 draft: false

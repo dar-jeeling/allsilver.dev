@@ -9,36 +9,59 @@ export const ThumbnailItem = ({ node }) => {
   const date = new dayjs(node.frontmatter.date).format('YY년 MM월 DD일')
   const thumbnailImage = getImage(node.frontmatter.thumbnail)
 
+  // console.log(node)
+  const tags = node.frontmatter.tags
+
+  // <Link to={node.fields.slug}>
+
   return (
-    <Link className={`thumbnail ${TARGET_CLASS}`} to={node.fields.slug}>
+    <div className={`thumbnail ${TARGET_CLASS}`}>
       <div key={node.fields.slug}>
         {thumbnailImage && (
-          <GatsbyImage
-            image={thumbnailImage}
-            alt={`thumbnail ${node.frontmatter.title}`}
-            style={{
-              borderRadius: '10px',
-            }}
-            class="thumbnail-image"
-          />
+          <Link to={node.fields.slug}>
+            <GatsbyImage
+              image={thumbnailImage}
+              alt={`thumbnail ${node.frontmatter.title}`}
+              style={{
+                borderRadius: '10px',
+              }}
+              className="thumbnail-image"
+            />
+          </Link>
         )}
 
-        <h3 class="thumbnail-item__title">
-          {node.frontmatter.title || node.fields.slug}
-        </h3>
+        <ul className="tags">
+          {tags &&
+            tags.map(tag => (
+              <Link
+                as="li"
+                className="tags__item"
+                to={`/tags/${tag}`}
+                key={tag}
+              >
+                #{tag}
+              </Link>
+            ))}
+        </ul>
 
-        <p
-          class="thumbnail-item"
-          dangerouslySetInnerHTML={{ __html: node.excerpt }}
-        />
+        <Link to={node.fields.slug}>
+          <h3 className="thumbnail-item__title">
+            {node.frontmatter.title || node.fields.slug}
+          </h3>
 
-        <div class="thumnail-info__wrapper">
-          <span class="thumbnail-item__date">{date}</span>
-          <span class="thumbnail-item__category">
-            {node.frontmatter.category}
-          </span>
-        </div>
+          <p
+            class="thumbnail-item"
+            dangerouslySetInnerHTML={{ __html: node.excerpt }}
+          />
+
+          <div class="thumnail-info__wrapper">
+            <span class="thumbnail-item__date">{date}</span>
+            <span class="thumbnail-item__category">
+              {node.frontmatter.category}
+            </span>
+          </div>
+        </Link>
       </div>
-    </Link>
+    </div>
   )
 }

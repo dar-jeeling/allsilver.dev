@@ -47,3 +47,23 @@
   height: fit-content;
   transform: translateY(-6px);
 }
+
+.thumbnail-item__title {
+  margin-top: 0;
+}
+
+.tags {
+  box-sizing: border-box;
+  font-size: 95%;
+  font-weight: bolder;
+  list-style: none;
+  margin: 0.5rem 0;
+  overflow: hidden;
+}
+
+.tags__item {
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.2s;
+  margin-right: 1rem;
+}

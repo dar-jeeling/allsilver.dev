@@ -1,7 +1,7 @@
 ---
 title: '[HTTP 완벽 가이드] 05. 웹 서버'
 date: 2023-01-18 16:46:31
-tags: ['HTTP 완벽 가이드']
+tags: ['HTTP 완벽 가이드', '웹 서버']
 category: '독서'
 thumbnail: './images/thumbnail_list.png'
 draft: false

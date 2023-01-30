@@ -1,7 +1,7 @@
 ---
 title: '[HTTP 완벽 가이드] 02. URL과 리소스'
 date: 2023-01-03 17:46:31
-tags: ['HTTP 완벽 가이드']
+tags: ['HTTP 완벽 가이드', 'URL']
 category: '독서'
 thumbnail: './images/thumbnail_list.png'
 draft: false
