@@ -15,7 +15,7 @@ import { Disqus } from '../components/disqus'
 import { Utterances } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 import { Tags } from '../components/tags'
-import { CategorySingle } from '../components/categorySingle'
+import { PostInfo } from '../components/post-info'
 
 import '../styles/code.scss'
 import 'katex/dist/katex.min.css'
@@ -38,10 +38,8 @@ export default ({ data, pageContext, location }) => {
       <Head title={postTitle} description={post.excerpt} />
       <Tags tags={tags} />
 
-      <CategorySingle category={category} style={{ marginLeft: 0 }} />
-
       <PostTitle title={postTitle} />
-      <PostDate date={date} />
+      <PostInfo date={date} category={category} />
 
       <PostContainer html={post.html} />
       <SocialShare title={postTitle} author={author} />
