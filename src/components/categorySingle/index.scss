@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.thumbnail-item__category {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-family: 'Catamaran';
+  font-weight: bolder;
+  height: fit-content;
+  transform: translateY(-6px);
+}

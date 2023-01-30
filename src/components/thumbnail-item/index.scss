@@ -36,17 +36,6 @@
   display: flex;
   align-items: center;
 }
-.thumbnail-item__category {
-  display: inline-block;
-  margin-left: 10px;
-  padding: 0.2rem 0.8rem;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  font-family: 'Catamaran';
-  font-weight: bolder;
-  height: fit-content;
-  transform: translateY(-6px);
-}
 
 .thumbnail-item__title {
   margin-top: 0;
@@ -66,4 +55,9 @@
   text-decoration: none;
   transition: color 0.2s;
   margin-right: 1rem;
+}
+
+.list-category {
+  display: inline-block;
+  margin-left: 10px;
 }

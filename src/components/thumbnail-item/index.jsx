@@ -5,6 +5,8 @@ import dayjs from 'dayjs'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Tags } from '../tags'
 import './index.scss'
+import { CategorySingle } from '../categorySingle'
+import { PostDate } from '../post-date'
 
 export const ThumbnailItem = ({ node }) => {
   const date = new dayjs(node.frontmatter.date).format('YY년 MM월 DD일')
@@ -41,9 +43,9 @@ export const ThumbnailItem = ({ node }) => {
 
           <div class="thumnail-info__wrapper">
             <span class="thumbnail-item__date">{date}</span>
-            <span class="thumbnail-item__category">
-              {node.frontmatter.category}
-            </span>
+            <div className="list-category">
+              <CategorySingle category={node.frontmatter.category} />
+            </div>
           </div>
         </Link>
       </div>

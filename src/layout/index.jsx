@@ -14,7 +14,6 @@ export const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const [isCSR] = useCSR()
 
-  console.log('title', title)
   return (
     <React.Fragment>
       <Top title={title} location={location} rootPath={rootPath} />
