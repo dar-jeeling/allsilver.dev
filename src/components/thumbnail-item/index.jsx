@@ -37,7 +37,7 @@ export const ThumbnailItem = ({ node }) => {
           </h3>
 
           <p
-            class="thumbnail-item"
+            className="thumbnail-item"
             dangerouslySetInnerHTML={{ __html: node.excerpt }}
           />
 

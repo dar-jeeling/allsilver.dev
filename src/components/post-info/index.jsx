@@ -6,7 +6,7 @@ import './index.scss'
 
 export const PostInfo = ({ category, date }) => {
   return (
-    <div class="post-info">
+    <div className="post-info">
       <CategorySingle category={category} />
 
       <PostDate date={date} />
