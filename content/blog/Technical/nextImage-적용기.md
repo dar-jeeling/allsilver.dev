@@ -2,7 +2,7 @@
 title: 'next/Image 적용기'
 date: 2022-10-07 00:21:38
 category: 'Technical'
-tags: ['Next.js', 'next/image', 'Artzip']
+tags: ['Next.js', 'nextImage', 'Artzip']
 draft: false
 ---
 
