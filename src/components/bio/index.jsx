@@ -3,6 +3,7 @@ import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
 
 import './index.scss'
+import { Wreath } from '../flowerProfile'
 
 export const Bio = forwardRef((props, ref) => {
   return (
@@ -15,14 +16,18 @@ export const Bio = forwardRef((props, ref) => {
           <div ref={ref} className="bio">
             <div className="author">
               <div className="author-description">
-                <Image
-                  className="author-image"
-                  fixed={data.avatar.childImageSharp.fixed}
-                  alt={author}
-                  style={{
-                    borderRadius: `100%`,
-                  }}
-                />
+                <div className="author-profile">
+                  <Image
+                    className="author-image"
+                    fixed={data.avatar.childImageSharp.fixed}
+                    alt={author}
+                    style={{
+                      borderRadius: `100%`,
+                    }}
+                  />
+                  <Wreath />
+                </div>
+
                 <div className="author-name">
                   <span className="author-name-prefix">Written by</span>
                   <Link to={'/about'} className="author-name-content">
@@ -71,7 +76,7 @@ export const Bio = forwardRef((props, ref) => {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile.png/" }) {
+    avatar: file(absolutePath: { regex: "/profile.jpeg/" }) {
       childImageSharp {
         fixed(width: 72, height: 72) {
           ...GatsbyImageSharpFixed
