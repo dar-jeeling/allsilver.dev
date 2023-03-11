@@ -3,14 +3,14 @@ title: '[HTTP 완벽 가이드] 16. 국제화'
 date: 2023-03-08 23:45:54
 tags: ['HTTP 완벽 가이드', '국제화']
 category: '독서'
-thumbnail: './images/thumbnail.png'
+thumbnail: './images/thumbnail_list.png'
 draft: false
 ---
 
 <div class="unsplash-wrapper">
 <img class="unsplash-thumbnail-image" alt="thumbnail" src="./images/thumbnail.png" />
 <div class="unsplash-author">
-사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/1VgfQdCuX-4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>의<a href="https://unsplash.com/es/@alvannee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alvan Nee</a>
+사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/khAuelKVnRg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>의<a href="https://unsplash.com/@danieltuttle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Tuttle</a>
 
 </div>
 </div>

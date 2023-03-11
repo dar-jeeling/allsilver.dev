@@ -10,7 +10,8 @@ draft: false
 <div class="unsplash-wrapper">
 <img class="unsplash-thumbnail-image" alt="thumbnail" src="./images/thumbnail.png" />
 <div class="unsplash-author">
-사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/LEpfefQf4rU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>의<a href="https://unsplash.com/@michaelsum1228?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Sum</a>
+사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/OnvD2Z8Md5w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>의<a href="https://unsplash.com/ja/@yulyurm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Julia Yurechko</a>
+  
   
 </div>
 </div>

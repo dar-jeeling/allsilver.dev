@@ -3,7 +3,7 @@ title: '[HTTP 완벽 가이드] 14. 보안 HTTP'
 date: 2023-02-17 23:55:12
 tags: ['HTTP 완벽 가이드', 'HTTPS']
 category: '독서'
-thumbnail: './images/thumbnail.png'
+thumbnail: './images/thumbnail_list.png'
 draft: false
 ---
 
