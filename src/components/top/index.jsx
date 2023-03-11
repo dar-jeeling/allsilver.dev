@@ -6,6 +6,8 @@ import './index.scss'
 
 export const Top = ({ title, location, rootPath }) => {
   const isRoot = location.pathname === rootPath
+  const isResume = location.pathname === '/about'
+
   return (
     <div className="top">
       {!isRoot && (
@@ -13,7 +15,16 @@ export const Top = ({ title, location, rootPath }) => {
           {title}
         </Link>
       )}
-      <GitHubIcon />
+
+      <div className="gnb-container">
+        {!isResume && (
+          <Link to={`/about`} className="link">
+            Resume
+          </Link>
+        )}
+
+        <GitHubIcon />
+      </div>
     </div>
   )
 }
