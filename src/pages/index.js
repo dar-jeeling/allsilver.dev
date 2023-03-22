@@ -33,15 +33,15 @@ export default ({ data, location }) => {
   // 카테고리 우선도를 위하여 수동으로 카테고리 정의
   const categories = [
     'Technical',
-    'Algorithm',
-    '독서',
+    'TIL',
     '회고',
-    'Project',
-    // 'TIL',
+    '독서',
     '스크랩북',
-    'Updates',
+    'Project',
+    'Algorithm',
     '데브코스',
     '괜찮은 생각',
+    'Updates',
   ]
 
   // const categories = useMemo(
