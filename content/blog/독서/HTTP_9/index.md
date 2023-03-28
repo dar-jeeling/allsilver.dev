@@ -1,7 +1,15 @@
 ---
 title: '[HTTP 완벽 가이드] 09. 웹 로봇'
 date: 2023-01-31 21:52:47
-tags: ['HTTP 완벽 가이드', '웹 로봇', '검색 엔진', 'robots.txt', '크롤러']
+tags:
+  [
+    'HTTP 완벽 가이드',
+    '웹 로봇',
+    '검색 엔진',
+    'robots.txt',
+    '크롤러',
+    'UA (User Agent)',
+  ]
 category: '독서'
 thumbnail: './images/thumbnail.jpg'
 draft: false
