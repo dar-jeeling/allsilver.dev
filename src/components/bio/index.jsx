@@ -1,11 +1,19 @@
 import React, { forwardRef } from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
-
+import { StatusBadge } from '../statusBadge'
 import './index.scss'
 import { Wreath } from '../flowerProfile'
 
 export const Bio = forwardRef((props, ref) => {
+  const statuses = [
+    { type: 'writing', description: '"소통"에 대한 포스팅 작성 중' },
+    {
+      type: 'reading',
+      description: '"자바스크립트는 왜 그 모양일까?" 읽는 중',
+    },
+  ]
+
   return (
     <StaticQuery
       query={bioQuery}
@@ -34,6 +42,13 @@ export const Bio = forwardRef((props, ref) => {
                     <span>@{author}</span>
                   </Link>
                   <div className="author-introduction">{introduction}</div>
+
+                  <div className="author-status">
+                    {statuses.map((status, index) => (
+                      <StatusBadge key={index} status={status} />
+                    ))}
+                  </div>
+
                   <p className="author-socials">
                     {social.instagram && (
                       <a href={`https://www.instagram.com/${social.instagram}`}>

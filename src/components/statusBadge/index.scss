@@ -1,0 +1,15 @@
+.status-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 100px;
+  background-color: rgba(214, 214, 216, 0.4);
+  font-size: 80%;
+  width: fit-content;
+  // text ellipsis
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
