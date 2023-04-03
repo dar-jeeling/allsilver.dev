@@ -7,10 +7,18 @@ import { Wreath } from '../flowerProfile'
 
 export const Bio = forwardRef((props, ref) => {
   const statuses = [
-    { type: 'writing', description: '"소통"에 대한 포스팅 작성 중' },
+    // { type: 'writing', description: '"소통"에 대한 포스팅 작성 중' },
+    // {
+    //   type: 'reading',
+    //   description: '"자바스크립트는 왜 그 모양일까?" 읽는 중',
+    // },
     {
-      type: 'reading',
-      description: '"자바스크립트는 왜 그 모양일까?" 읽는 중',
+      type: 'exam',
+      description: '중간고사 공부 중',
+    },
+    {
+      type: 'study',
+      description: 'CS 면접 스터디 진행 중',
     },
   ]
 
