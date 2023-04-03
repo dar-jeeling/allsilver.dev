@@ -1,21 +1,25 @@
 ---
 title: 'about'
-date: 2019-1-27 16:21:13
+date: 2023-04-03 11:43:51
 lang: 'ko'
 ---
 
-# 안녕하세요!<br>프론트엔드 개발자 지망생 김다은 입니다!
+# 안녕하세요!<br>철학적인 개발자를 지향하는 <br>프론트엔드 지망생 김다은 입니다!
 
-**개발에 있어서 기본기가 가장 중요하다고 생각합니다**.
+개발’이란 **개발자 자신과 다른 개발자들, 그리고 컴퓨터와 사용자들의 소통에서 서로의 철학이 융합되는 과정**이라고 생각합니다. 이를 위해 프로그래밍 과정에서 가장 중요하다고 생각하는 것은 자신만의 철학을 가지고, 다른 사람(다른 개발자와 사용자)의 철학과 사용하는 기술의 철학을 이해하는 것입니다.
 
-- 프론트엔드 기술의 기본이 되는 `JavaScript`를 학습하기 위하여, `모던 JavaScript 딥 다이브` 독서 스터디를 리딩하였습니다.
-- 라이브러리나 프레임워크를 학습하기 전에 해당 기술이 가지고 있는 기본 컨셉과 세계관을 이해하는 것을 최우선으로 생각하고, 프로젝트의 성격과 잘 부합하는 라이브러리나 프레임워크를 선택하려고 노력합니다.
+철학적인 개발자가 되기 위해 다음과 같은 활동을 수행했습니다:
+<br>
 
-**기록과 문서화를 중요하게 생각합니다.**
+**1. 자신만의 철학을 가지기 위하여**
 
-- 프로젝트를 개발하면서 있었던 일들을 기록하고, 프로젝트 개발 종료 후 [회고](https://www.allsilver.dev/?category=%ED%9A%8C%EA%B3%A0)를 작성합니다.
-- 팀과의 소통을 위한 기록 역시 중요하다고 생각합니다.
-  - `Notion` 과 `GitHub` 의 `Discussion`을 활용하여, 팀원들과 프로젝트 이슈를 활발하게 공유합니다.
+- [기술 블로그](https://www.allsilver.dev/)를 구축하고, 주체적인 사고가 담긴 글을 작성하려고 노력합니다.
+- [프로젝트를 개발하기하면서 있었던 일](https://www.allsilver.dev/?category=Project)들을 기록하고, 개발 종료 후 [회고](https://www.allsilver.dev/?category=%ED%9A%8C%EA%B3%A0)를 작성합니다.
+
+**2. 다른 사람과 사용하는 기술의 철학을 이해하기 위하여**
+
+- 팀원들과 원할하게 소통을 하기 위해 Notion, Github과 그들의 기능 (칸반 보드, Project, [Discussion](https://github.com/prgrms-web-devcourse/Team-BackFro-ArtZip-FE/discussions), [Wiki](https://github.com/dnd-side-project/dnd-8th-1-frontend/wiki))를 적극적으로 활용하여 **프로젝트 문서화에 주도적으로 참여**했습니다.
+- 프론트엔드와 웹 기술의 기본이 되는 **`JavaScript`와 `HTTP`의 철학에 대한 깊은 이해**를 위하여 **[모던 JavaScript 딥 다이브 스터디](https://wild-gear-1b0.notion.site/Deep-Dive-cb93ad0db4f941b79fc31ae6a6ff645c)**와 **[HTTP 완벽 가이드 스터디](https://github.com/prgrms-web-devcourse/We-are-the-MASTERS-OF-HTTP)**를 운영하여 다른 사람과의 지식 공유에 기여하였습니다.
 
 <div class="contact-and-channel" style="display:flex;justify-content:space-between">
 
