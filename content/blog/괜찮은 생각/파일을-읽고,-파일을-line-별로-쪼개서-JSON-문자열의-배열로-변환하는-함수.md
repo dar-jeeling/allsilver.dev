@@ -1,8 +1,9 @@
 ---
-title: '파일을 읽고, 파일을 line 별로 쪼개서 JSON 문자열의 배열로 변환하는 함수'
+title: '[JavasScript] 파일을 읽고, 파일을 line 별로 쪼개서 JSON 문자열의 배열로 변환하는 함수'
 date: 2023-04-11 14:26:31
 category: '괜찮은 생각'
 tags: ['유용한 함수']
+thumbnail: './thumnails/fileToJsonString.png'
 draft: false
 ---
 
@@ -10,7 +11,7 @@ draft: false
 
 다음과 같이 작성한다.
 
-```jsx
+```javascript
 const fs = require('fs')
 
 function readFileToJSONString(filePath, callback) {
@@ -25,7 +26,7 @@ function readFileToJSONString(filePath, callback) {
 }
 
 // 사용 예
-const filePath = './src/components/base/Atom/Atom.stories.tsx' // 원하는 파일 경로
+const filePath = './example.tsx' // 원하는 파일 경로
 readFileToJSONString(filePath, jsonResult => {
   console.log(jsonResult)
 })
