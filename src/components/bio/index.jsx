@@ -12,14 +12,14 @@ export const Bio = forwardRef((props, ref) => {
     //   type: 'reading',
     //   description: '"자바스크립트는 왜 그 모양일까?" 읽는 중',
     // },
-    {
-      type: 'exam',
-      description: '중간고사 공부 중',
-    },
-    {
-      type: 'study',
-      description: 'CS 면접 스터디 진행 중',
-    },
+    // {
+    //   type: 'exam',
+    //   description: '중간고사 공부 중',
+    // },
+    // {
+    //   type: 'study',
+    //   description: 'CS 면접 스터디 진행 중',
+    // },
   ]
 
   return (
