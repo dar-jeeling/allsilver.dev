@@ -73,8 +73,11 @@ draft: false
 - 새 페이지에서 `window.open.location`을 변경하여, 기존 페이지를 피싱 페이지로 변경하여 사용자 정보를 탈취할 수 있음. (**기본적으로 새 탭을 열면 현재 탭을 열었던 탭의 참조를 반환하기 때문**) → 이를 **`Tabnabbing`**
 - 이러한 참조를 없애기 위해서 `rel="noopener noreferrer"`를 추가할 수 있음.
 
-!()[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrJAUB%2FbtqJjvpy1d5%2FVH0K2asom1k7xQ4DQgKKbK%2Fimg.png]
-(출처 : https://blog.jxck.io/)
+<figure>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrJAUB%2FbtqJjvpy1d5%2FVH0K2asom1k7xQ4DQgKKbK%2Fimg.png
+" alt=""/>
+<figcaption class="caption">출처 : https://blog.jxck.io/</figcaption>
+</figure>
 
 - `noopener` : 현재 열었던 탭의 참조를 없앰. 즉, 새 탭에서 window.opener 속성이 null 값을 반환
 - `noreferrer` : 마찬가지로 window.opener 속성이 null 값을 반환함. 또한 다른 페이지로 이동할 때 브라우저가 HTTP 헤더에 referer로 이 페이지 주소 또는 다른 값을 전송하지 못하도록 차단함. (따라서 새 탭을 요청한 이전 탭이 무엇인지 알 수 없게 됨.)
