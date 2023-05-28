@@ -1,7 +1,7 @@
 ---
 title: '[HTTP 완벽 가이드] 06. 프락시'
 date: 2023-01-24 21:27:19
-tags: ['HTTP 완벽 가이드', '프록시']
+tags: ['HTTP 완벽 가이드', '프록시', 'proxy', 'CORS']
 category: '독서'
 thumbnail: './images/thumbnail_list.png'
 draft: false
