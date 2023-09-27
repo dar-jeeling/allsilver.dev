@@ -1,5 +1,5 @@
 ---
-title: 'BOJ 1915 가장 큰 정사각형'
+title: '[오답노트] 가장 큰 정사각형(BOJ 1915)'
 date: 2023-08-23 15:56:15
 category: 'Algorithm'
 draft: false
